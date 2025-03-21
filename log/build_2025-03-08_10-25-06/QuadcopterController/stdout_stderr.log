@@ -1,0 +1,14 @@
+[ 38%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[ 53%] Built target MOTOR_CONTROLLER_LIB
+[ 69%] Built target DATABASE_LIB
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[ 84%] Built target QuadcopterController
+[ 92%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[KGlobalDatabase[m[K’ is not a member of ‘[01m[Kdatabase[m[K’
+   12 |     auto data = database::[01;31m[KGlobalDatabase[m[K.getIMUData();
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

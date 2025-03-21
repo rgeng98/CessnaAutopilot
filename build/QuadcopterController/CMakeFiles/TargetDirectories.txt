@@ -1,0 +1,17 @@
+/home/rgeng/Project/build/QuadcopterController/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/CMakeFiles/rebuild_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/CMakeFiles/QuadcopterController.dir
+/home/rgeng/Project/build/QuadcopterController/src/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/CMakeFiles/rebuild_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/controller/CMakeFiles/CONTROLLER_LIB.dir
+/home/rgeng/Project/build/QuadcopterController/src/controller/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/controller/CMakeFiles/rebuild_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/database/CMakeFiles/DATABASE_LIB.dir
+/home/rgeng/Project/build/QuadcopterController/src/database/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/database/CMakeFiles/rebuild_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir
+/home/rgeng/Project/build/QuadcopterController/src/MotorDriver/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/MotorDriver/CMakeFiles/rebuild_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/objects/CMakeFiles/OBJECTS.dir
+/home/rgeng/Project/build/QuadcopterController/src/objects/CMakeFiles/edit_cache.dir
+/home/rgeng/Project/build/QuadcopterController/src/objects/CMakeFiles/rebuild_cache.dir

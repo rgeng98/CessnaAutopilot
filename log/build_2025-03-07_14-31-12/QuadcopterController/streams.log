@@ -1,0 +1,20 @@
+[0.094s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[1.040s] [ 55%] Built target CONTROLLER_LIB
+[1.150s] [ 77%] Built target QuadcopterController
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[1.202s] [ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[5.799s] In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:4[m[K:
+[5.800s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In member function ‘[01m[KT subscriber::msgSubscriber<T>::getMessageData()[m[K’:
+[5.800s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcallBackData[m[K’ was not declared in this scope; did you mean ‘[01m[KcallbackData[m[K’?
+[5.800s]    29 |         return [01;31m[KcallBackData[m[K;
+[5.800s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[5.800s]       |                [32m[KcallbackData[m[K
+[5.800s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.800s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:13:53:[m[K [01;31m[Kerror: [m[K‘[01m[KcallBackData[m[K’ is not a member of ‘[01m[Ksubscriber[m[K’; did you mean ‘[01m[KcallbackData[m[K’?
+[5.800s]    13 | ::cout << "Global variable: " << subscriber::[01;31m[KcallBackData[m[K.data() << std::endl;
+[5.800s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[5.800s]       |                                              [32m[KcallbackData[m[K
+[6.785s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[6.786s] gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[6.786s] gmake: *** [Makefile:91: all] Error 2
+[6.796s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

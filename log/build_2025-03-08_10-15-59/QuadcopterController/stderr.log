@@ -1,0 +1,41 @@
+In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMSG_TOPICS[m[K’ is not a member of ‘[01m[Kenums[m[K’; did you mean ‘[01m[KMSG_Topics[m[K’?
+   13 |         std::map<enums::[01;31m[KMSG_TOPICS[m[K, subscribers::msgSubscriber*> subscribers;
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[KMSG_Topics[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber[m[K’?
+   13 |         std::map<enums::MSG_TOPICS, [01;31m[Ksubscribers[m[K::msgSubscriber*> subscribers;
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                     [32m[Ksubscriber[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         std::map<enums::MSG_TOPICS, subscribers::msgSubscriber*[01;31m[K>[m[K subscribers;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/rgeng/Project/include/database/database.hpp:22:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   22 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In constructor ‘[01m[Kdatabase::database::database()[m[K’:
+[01m[K/home/rgeng/Project/src/database/database.cpp:7:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinsert_or_assign[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+    7 |         subscribers.[01;31m[Kinsert_or_assign[m[K(std::pair(enums::MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:7:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMSGS[m[K’ is not a member of ‘[01m[Kenums[m[K’
+    7 |         subscribers.insert_or_assign(std::pair(enums::[01;31m[KMSGS[m[K::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+      |                                                       [01;31m[K^~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:7:118:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Ksubscriber::msgSubscriber<ignition::msgs::IMU>*[m[K’ in initialization
+    7 |         subscribers.insert_or_assign(std::pair(enums::MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*([01;31m[K"/MyTopic"[m[K)));
+      |                                                                                                                      [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                                                      [01;31m[K|[m[K
+      |                                                                                                                      [01;31m[Kconst char*[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In member function ‘[01m[Kobjects::imu database::database::getIMUData()[m[K’:
+[01m[K/home/rgeng/Project/src/database/database.cpp:11:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   11 |         ignition::msgs::IMU imuMsg = subscribers.[01;31m[Kat[m[K(enums::MSGS::IMU)->getMessageData();
+      |                                                  [01;31m[K^~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:11:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kenums::MSGS[m[K’ has not been declared
+   11 |         ignition::msgs::IMU imuMsg = subscribers.at(enums::[01;31m[KMSGS[m[K::IMU)->getMessageData();
+      |                                                            [01;31m[K^~~~[m[K
+gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

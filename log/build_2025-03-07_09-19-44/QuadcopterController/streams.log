@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.036s] [ 71%] Built target CONTROLLER_LIB
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[0.071s] [ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[2.135s] [01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.136s] [01m[K/home/rgeng/Project/src/main.cpp:16:10:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kclass ignition::transport::v8::Node::Publisher[m[K’
+[2.136s]    16 |     node.[01;31m[KPublisher[m[K(topic, msg);
+[2.136s]       |          [01;31m[K^~~~~~~~~[m[K
+[2.886s] gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+[2.886s] gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+[2.886s] gmake: *** [Makefile:91: all] Error 2
+[2.888s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

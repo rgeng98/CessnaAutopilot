@@ -1,0 +1,28 @@
+[0.050s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
+[1.501s] -- The C compiler identification is GNU 11.4.0
+[2.070s] -- The CXX compiler identification is GNU 11.4.0
+[2.172s] -- Detecting C compiler ABI info
+[2.531s] -- Detecting C compiler ABI info - done
+[2.535s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.536s] -- Detecting C compile features
+[2.570s] -- Detecting C compile features - done
+[2.573s] -- Detecting CXX compiler ABI info
+[2.674s] -- Detecting CXX compiler ABI info - done
+[2.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.679s] -- Detecting CXX compile features
+[2.679s] -- Detecting CXX compile features - done
+[3.022s] -- Configuring done
+[3.025s] -- Generating done
+[3.026s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[3.029s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
+[3.030s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[3.055s] [ 28%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[3.055s] [ 28%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[3.055s] [ 57%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[3.055s] [ 57%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[4.718s] [ 71%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[4.774s] [ 71%] Built target CONTROLLER_LIB
+[4.783s] [ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[5.414s] [100%] [32m[1mLinking CXX executable QuadcopterController[0m
+[5.478s] [100%] Built target QuadcopterController
+[5.513s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

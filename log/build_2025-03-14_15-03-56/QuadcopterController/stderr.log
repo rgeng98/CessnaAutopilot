@@ -1,0 +1,15 @@
+[01m[K/home/rgeng/Project/src/controller/base.cpp:[m[K In member function ‘[01m[Kvoid controller::Base::commandVehicle()[m[K’:
+[01m[K/home/rgeng/Project/src/controller/base.cpp:15:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kignition::msgs::Float[m[K’ to ‘[01m[Kconst gazebo::msgs::Cessna&[m[K’
+   15 |     controlPublisher->publishMessage([01;31m[Kcmd[m[K);
+      |                                      [01;31m[K^~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kignition::msgs::Float[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&) [with T = gazebo::msgs::Cessna][m[K’
+   19 |     void publishMessage([01;36m[Kconst T& inMsg[m[K)
+      |                         [01;36m[K~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

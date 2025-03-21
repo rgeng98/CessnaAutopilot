@@ -1,0 +1,4 @@
+[ 38%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[ 53%] Built target MOTOR_CONTROLLER_LIB
+[ 61%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m

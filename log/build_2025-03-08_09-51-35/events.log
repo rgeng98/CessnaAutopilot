@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000894] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.069849] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.082996] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.083562] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rgeng'), ('OLDPWD', '/home/rgeng/Project/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/657_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099794] (-) TimerEvent: {}
+[0.200003] (-) TimerEvent: {}
+[0.300326] (-) TimerEvent: {}
+[0.400621] (-) TimerEvent: {}
+[0.500919] (-) TimerEvent: {}
+[0.601376] (-) TimerEvent: {}
+[0.701734] (-) TimerEvent: {}
+[0.785864] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.801811] (-) TimerEvent: {}
+[0.837711] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.901925] (-) TimerEvent: {}
+[1.002149] (-) TimerEvent: {}
+[1.102391] (-) TimerEvent: {}
+[1.202832] (-) TimerEvent: {}
+[1.303161] (-) TimerEvent: {}
+[1.403497] (-) TimerEvent: {}
+[1.503838] (-) TimerEvent: {}
+[1.604204] (-) TimerEvent: {}
+[1.704562] (-) TimerEvent: {}
+[1.804884] (-) TimerEvent: {}
+[1.905255] (-) TimerEvent: {}
+[1.938653] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.938998] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.982930] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.000336] (QuadcopterController) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.005342] (-) TimerEvent: {}
+[2.040876] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.041141] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.105457] (-) TimerEvent: {}
+[2.205773] (-) TimerEvent: {}
+[2.306125] (-) TimerEvent: {}
+[2.406456] (-) TimerEvent: {}
+[2.506769] (-) TimerEvent: {}
+[2.607113] (-) TimerEvent: {}
+[2.707474] (-) TimerEvent: {}
+[2.807805] (-) TimerEvent: {}
+[2.908109] (-) TimerEvent: {}
+[2.984426] (QuadcopterController) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.987496] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.008208] (-) TimerEvent: {}
+[3.058726] (QuadcopterController) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.085132] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.107186] (QuadcopterController) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.108288] (-) TimerEvent: {}
+[3.124135] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.131270] (QuadcopterController) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.208444] (-) TimerEvent: {}
+[3.265550] (QuadcopterController) StdoutLine: {'line': b'-- Generating done\n'}
+[3.299871] (QuadcopterController) StdoutLine: {'line': b'-- Build files have been written to: /home/rgeng/Project/build/QuadcopterController\n'}
+[3.308535] (-) TimerEvent: {}
+[3.388994] (QuadcopterController) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o\x1b[0m\n'}
+[3.408652] (-) TimerEvent: {}
+[3.410641] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB\x1b[0m\n'}
+[3.425974] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o\x1b[0m\n'}
+[3.426110] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o\x1b[0m\n'}
+[3.426286] (QuadcopterController) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o\x1b[0m\n'}
+[3.426699] (QuadcopterController) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o\x1b[0m\n'}
+[3.508783] (-) TimerEvent: {}
+[3.609117] (-) TimerEvent: {}
+[3.709589] (-) TimerEvent: {}
+[3.809980] (-) TimerEvent: {}
+[3.910400] (-) TimerEvent: {}
+[3.927263] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/MotorDriver/MotorSpeedController.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KMotorSpeedController.hpp: No such file or directory\n'}
+[3.927425] (QuadcopterController) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<MotorSpeedController.hpp>\x1b[m\x1b[K\n'}
+[3.927485] (QuadcopterController) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.927534] (QuadcopterController) StderrLine: {'line': b'compilation terminated.\n'}
+[3.934622] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/build.make:76: src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o] Error 1\n'}
+[3.934828] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:257: src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/all] Error 2\n'}
+[3.934886] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.010526] (-) TimerEvent: {}
+[4.110979] (-) TimerEvent: {}
+[4.211397] (-) TimerEvent: {}
+[4.311757] (-) TimerEvent: {}
+[4.412209] (-) TimerEvent: {}
+[4.493965] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:2\x1b[m\x1b[K,\n'}
+[4.494148] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:2\x1b[m\x1b[K,\n'}
+[4.494215] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[4.494271] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/transport.hh: No such file or directory\n'}
+[4.494327] (QuadcopterController) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<ignition/transport.hh>\x1b[m\x1b[K\n'}
+[4.494376] (QuadcopterController) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.494424] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:2\x1b[m\x1b[K,\n'}
+[4.494471] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:2\x1b[m\x1b[K,\n'}
+[4.494518] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[4.494565] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/transport.hh: No such file or directory\n'}
+[4.494612] (QuadcopterController) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<ignition/transport.hh>\x1b[m\x1b[K\n'}
+[4.494657] (QuadcopterController) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.494702] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:2\x1b[m\x1b[K,\n'}
+[4.494747] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[4.494783] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/transport.hh: No such file or directory\n'}
+[4.494819] (QuadcopterController) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<ignition/transport.hh>\x1b[m\x1b[K\n'}
+[4.494854] (QuadcopterController) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.494890] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:2\x1b[m\x1b[K,\n'}
+[4.494934] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:2\x1b[m\x1b[K,\n'}
+[4.494978] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[4.495015] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kignition/transport.hh: No such file or directory\n'}
+[4.495051] (QuadcopterController) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<ignition/transport.hh>\x1b[m\x1b[K\n'}
+[4.495087] (QuadcopterController) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.495123] (QuadcopterController) StderrLine: {'line': b'compilation terminated.\n'}
+[4.495163] (QuadcopterController) StderrLine: {'line': b'compilation terminated.\n'}
+[4.495199] (QuadcopterController) StderrLine: {'line': b'compilation terminated.\n'}
+[4.495234] (QuadcopterController) StderrLine: {'line': b'compilation terminated.\n'}
+[4.496788] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1\n'}
+[4.496926] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.497094] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1\n'}
+[4.497167] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1\n'}
+[4.497213] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1\n'}
+[4.497321] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:205: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2\n'}
+[4.497432] (QuadcopterController) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[4.507401] (QuadcopterController) CommandEnded: {'returncode': 2}
+[4.507663] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 2}
+[4.512294] (-) TimerEvent: {}
+[4.517863] (-) EventReactorShutdown: {}

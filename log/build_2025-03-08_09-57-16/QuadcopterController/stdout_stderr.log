@@ -1,0 +1,169 @@
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Configuring done
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:8 (add_executable):
+  Target "QuadcopterController" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/CMakeLists.txt:9 (add_executable):
+  Target "QuadcopterController_subscriber" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/controller/CMakeLists.txt:3 (add_library):
+  Target "CONTROLLER_LIB" links to target "ignition-msgs5::ignition-msgs5"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/controller/CMakeLists.txt:3 (add_library):
+  Target "CONTROLLER_LIB" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):
+  Target "DATABASE_LIB" links to target "ignition-msgs5::ignition-msgs5" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):
+  Target "DATABASE_LIB" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):
+  Target "DATABASE_LIB" links to target "ignition-msgs5::ignition-msgs5" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):
+  Target "DATABASE_LIB" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):
+  Target "MOTOR_CONTROLLER_LIB" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):
+  Target "MOTOR_CONTROLLER_LIB" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):
+  Target "MOTOR_CONTROLLER_LIB" links to target
+  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a
+  find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):
+  Target "MOTOR_CONTROLLER_LIB" links to target
+  "ignition-transport8::ignition-transport8" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+[0m
+-- Generating done
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:208: cmake_check_build_system] Error 1

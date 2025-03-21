@@ -1,0 +1,17 @@
+[0.104s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.831s] [ 38%] Built target CONTROLLER_LIB
+[0.882s] [ 53%] Built target MOTOR_CONTROLLER_LIB
+[0.883s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[0.896s] [ 69%] Built target DATABASE_LIB
+[0.951s] [ 76%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[0.982s] [ 92%] Built target QuadcopterController
+[7.357s] [100%] [32m[1mLinking CXX executable QuadcopterController_subscriber[0m
+[7.523s] /usr/bin/ld: database/libDATABASE_LIB.a(database.cpp.o): in function `objects::quaternions_to_euler(objects::Quaternion)':
+[7.523s] database.cpp:(.text+0x0): multiple definition of `objects::quaternions_to_euler(objects::Quaternion)'; CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o:SubscriberTest.cpp:(.text+0x0): first defined here
+[7.523s] /usr/bin/ld: database/libDATABASE_LIB.a(database.cpp.o): in function `objects::euler_to_quaternions(objects::EulerAngles const&)':
+[7.523s] database.cpp:(.text+0x236): multiple definition of `objects::euler_to_quaternions(objects::EulerAngles const&)'; CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o:SubscriberTest.cpp:(.text+0x236): first defined here
+[7.872s] collect2: error: ld returned 1 exit status
+[7.873s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:107: src/QuadcopterController_subscriber] Error 1
+[7.873s] gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[7.873s] gmake: *** [Makefile:91: all] Error 2
+[7.886s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

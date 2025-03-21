@@ -1,0 +1,19 @@
+[ 71%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/main.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::transport::v8::Node::Publisher[m[K’ has no member named ‘[01m[KAdvertise[m[K’
+    9 |   if (!node.[01;31m[KAdvertise[m[K(topic, "ignition.msgs.StringMsg")) {
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:16:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::transport::v8::Node::Publisher::Publish(std::string&, ignition::msgs::StringMsg&)[m[K’
+   16 |     [01;31m[Knode.Publish(topic, msg)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:147:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ignition::transport::v8::Node::Publisher::Publish(const ProtoMsg&)[m[K’
+  147 |         public: bool [01;36m[KPublish[m[K(const ProtoMsg &_msg);
+      |                      [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:147:22:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

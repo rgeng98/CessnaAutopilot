@@ -1,0 +1,18 @@
+[0.022s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.040s] [ 55%] Built target CONTROLLER_LIB
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[0.055s] [ 77%] Built target QuadcopterController
+[0.062s] [ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[2.096s] In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:5[m[K:
+[2.096s] [01m[K/home/rgeng/Project/include/objects/imu.h:[m[K In function ‘[01m[Kobjects::Quaternion objects::euler_to_quaternions(const objects::EulerAngles&)[m[K’:
+[2.096s] [01m[K/home/rgeng/Project/include/objects/imu.h:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternions[m[K’ was not declared in this scope; did you mean ‘[01m[KQuaternion[m[K’?
+[2.096s]    53 |     [01;31m[KQuaternions[m[K  q;
+[2.096s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.097s]       |     [32m[KQuaternion[m[K
+[2.099s] [01m[K/home/rgeng/Project/include/objects/imu.h:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[2.099s]    63 |     [01;31m[Kq[m[K.w = cr * cp * cy + sr * sp * sy;
+[2.099s]       |     [01;31m[K^[m[K
+[2.973s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[2.973s] gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[2.973s] gmake: *** [Makefile:91: all] Error 2
+[2.975s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

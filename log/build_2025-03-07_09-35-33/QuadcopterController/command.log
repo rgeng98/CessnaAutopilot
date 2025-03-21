@@ -1,0 +1,2 @@
+Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

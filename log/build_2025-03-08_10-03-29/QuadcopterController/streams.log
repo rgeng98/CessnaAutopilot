@@ -1,0 +1,73 @@
+[0.132s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.818s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.903s] -- Searching for dependencies of ignition-msgs5
+[1.819s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.819s] -- Searching for dependencies of ignition-math6
+[1.863s] -- Checking for module 'tinyxml2'
+[1.881s] --   Found tinyxml2, version 9.0.0
+[1.921s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.921s] -- Searching for dependencies of ignition-transport8
+[2.833s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.836s] -- Checking for module 'libzmq >= 4'
+[2.903s] --   Found libzmq , version 4.3.4
+[2.930s] -- Checking for module 'uuid'
+[2.946s] --   Found uuid, version 2.37.2
+[2.962s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.990s] -- Configuring done
+[3.142s] -- Generating done
+[3.145s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[3.309s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[3.333s] [ 15%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[3.333s] [ 15%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[3.334s] [ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[3.334s] [ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[10.169s] [ 38%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[10.321s] [ 38%] Built target CONTROLLER_LIB
+[10.358s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[10.365s] [ 46%] [32mBuilding CXX object src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o[0m
+[10.417s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[10.520s] [ 53%] [32m[1mLinking CXX static library libMOTOR_CONTROLLER_LIB.a[0m
+[10.520s] [ 61%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[10.887s] [ 61%] Built target MOTOR_CONTROLLER_LIB
+[12.617s] In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[12.617s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMSG_TOPICS[m[K’ was not declared in this scope
+[12.617s]    12 |         std::map<[01;31m[KMSG_TOPICS[m[K, subscribers::msgSubscriber*> subscribers;
+[12.618s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[12.621s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber[m[K’?
+[12.621s]    12 |         std::map<MSG_TOPICS, [01;31m[Ksubscribers[m[K::msgSubscriber*> subscribers;
+[12.621s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[12.621s]       |                              [32m[Ksubscriber[m[K
+[12.621s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.622s]    12 |         std::map<MSG_TOPICS, subscribers::msgSubscriber*[01;31m[K>[m[K subscribers;
+[12.622s]       |                                                         [01;31m[K^[m[K
+[12.622s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[12.622s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[12.622s] [01m[K/home/rgeng/Project/include/database/database.hpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[12.622s] [01m[K/home/rgeng/Project/include/database/database.hpp:21:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[12.622s]    21 |     }
+[12.622s]       |      [01;31m[K^[m[K
+[12.622s]       |      [32m[K;[m[K
+[12.622s] [01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In constructor ‘[01m[Kdatabase::database::database()[m[K’:
+[12.623s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinsert_or_assign[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[12.623s]     7 |         subscribers.[01;31m[Kinsert_or_assign[m[K(std::pair(MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+[12.623s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.625s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:48:[m[K [01;31m[Kerror: [m[K‘[01m[KMSGS[m[K’ was not declared in this scope; did you mean ‘[01m[KMSG_SYN[m[K’?
+[12.625s]     7 |         subscribers.insert_or_assign(std::pair([01;31m[KMSGS[m[K::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+[12.625s]       |                                                [01;31m[K^~~~[m[K
+[12.625s]       |                                                [32m[KMSG_SYN[m[K
+[12.625s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:111:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Ksubscriber::msgSubscriber<ignition::msgs::IMU>*[m[K’ in initialization
+[12.625s]     7 |         subscribers.insert_or_assign(std::pair(MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*([01;31m[K"/MyTopic"[m[K)));
+[12.625s]       |                                                                                                               [01;31m[K^~~~~~~~~~[m[K
+[12.625s]       |                                                                                                               [01;31m[K|[m[K
+[12.625s]       |                                                                                                               [01;31m[Kconst char*[m[K
+[12.625s] [01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In member function ‘[01m[Kobjects::imu database::database::getIMUData()[m[K’:
+[12.625s] [01m[K/home/rgeng/Project/src/database/database.cpp:11:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[12.625s]    11 |         ignition::msgs::IMU imuMsg = subscribers.[01;31m[Kat[m[K(MSGS::IMU)->getMessageData();
+[12.625s]       |                                                  [01;31m[K^~[m[K
+[12.625s] [01m[K/home/rgeng/Project/src/database/database.cpp:11:53:[m[K [01;31m[Kerror: [m[K‘[01m[KMSGS[m[K’ has not been declared
+[12.625s]    11 |         ignition::msgs::IMU imuMsg = subscribers.at([01;31m[KMSGS[m[K::IMU)->getMessageData();
+[12.625s]       |                                                     [01;31m[K^~~~[m[K
+[13.120s] gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1
+[13.120s] gmake[1]: *** [CMakeFiles/Makefile2:235: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2
+[13.120s] gmake: *** [Makefile:91: all] Error 2
+[13.126s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

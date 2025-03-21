@@ -1,0 +1,86 @@
+[0.050s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.271s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.330s] -- Searching for dependencies of ignition-msgs5
+[1.196s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.216s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.217s] -- Searching for dependencies of ignition-math6
+[1.228s] -- Checking for module 'tinyxml2'
+[1.252s] --   Found tinyxml2, version 9.0.0
+[1.283s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.283s] -- Searching for dependencies of ignition-transport8
+[2.306s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.310s] -- Checking for module 'libzmq >= 4'
+[2.367s] --   Found libzmq , version 4.3.4
+[2.388s] -- Checking for module 'uuid'
+[2.400s] --   Found uuid, version 2.37.2
+[2.417s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.469s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.470s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[2.470s]   does not match the name of the calling package (gazebo).  This can lead to
+[2.470s]   problems in calling code that expects `find_package` result variables
+[2.470s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.470s] Call Stack (most recent call first):
+[2.470s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[2.470s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[2.470s]   CMakeLists.txt:7 (find_package)
+[2.470s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.470s] [0m
+[2.625s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.710s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.718s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.719s] -- Looking for OGRE...
+[2.729s] -- Found Ogre Ghadamon (1.9.0)
+[2.735s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.742s] -- Looking for OGRE_Paging...
+[2.742s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.742s] -- Looking for OGRE_Terrain...
+[2.742s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.742s] -- Looking for OGRE_Property...
+[2.742s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.742s] -- Looking for OGRE_RTShaderSystem...
+[2.742s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.742s] -- Looking for OGRE_Volume...
+[2.743s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.743s] -- Looking for OGRE_Overlay...
+[2.743s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.845s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.846s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.846s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.853s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.853s] -- Searching for dependencies of ignition-common3
+[8.854s] -- Looking for dlfcn.h - found
+[8.854s] -- Looking for libdl - found
+[8.906s] -- Searching for <ignition-common3> component [graphics]
+[8.906s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.907s] -- Searching for dependencies of ignition-common3-graphics
+[8.907s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.919s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.919s] -- Searching for dependencies of ignition-fuel_tools4
+[9.513s] -- Checking for module 'jsoncpp'
+[9.520s] --   Found jsoncpp, version 1.9.5
+[9.555s] -- Checking for module 'libzip'
+[9.567s] --   Found libzip, version 1.7.3
+[9.584s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.585s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.585s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.605s] -- Configuring done
+[9.679s] -- Generating done
+[9.705s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[9.726s] [35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[9.731s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[9.732s] [ 15%] Built target OBJECTS
+[9.788s] [ 53%] Built target CONTROLLER_LIB
+[9.794s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[9.795s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[9.800s] [ 69%] Built target MOTOR_CONTROLLER_LIB
+[9.824s] [ 84%] Built target DATABASE_LIB
+[9.831s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[9.864s] [ 92%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[16.029s] [100%] [32m[1mLinking CXX executable QuadcopterController[0m
+[16.232s] /usr/bin/ld: CMakeFiles/QuadcopterController.dir/main.cpp.o: undefined reference to symbol '_ZN3tbb6detail2r114notify_waitersEm'
+[16.232s] /usr/bin/ld: /lib/x86_64-linux-gnu/libtbb.so.12: error adding symbols: DSO missing from command line
+[16.235s] collect2: error: ld returned 1 exit status
+[16.237s] gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:153: src/QuadcopterController] Error 1
+[16.237s] gmake[1]: *** [CMakeFiles/Makefile2:172: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+[16.237s] gmake: *** [Makefile:91: all] Error 2
+[16.239s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

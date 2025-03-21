@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.041s] [ 15%] Built target OBJECTS
+[0.061s] [ 53%] Built target CONTROLLER_LIB
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[0.074s] [ 69%] Built target MOTOR_CONTROLLER_LIB
+[0.104s] [ 76%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[4.074s] [01m[K/home/rgeng/Project/src/database/database.cpp:5:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdatabase::database::database()[m[K’
+[4.074s]     5 |     [01;31m[Kdatabase[m[K::database(){
+[4.074s]       |     [01;31m[K^~~~~~~~[m[K
+[4.074s] In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[4.074s] [01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr database::database::database(database::database&&)[m[K’
+[4.074s]    11 |     class [01;36m[Kdatabase[m[K
+[4.074s]       |           [01;36m[K^~~~~~~~[m[K
+[4.074s] [01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr database::database::database(const database::database&)[m[K’
+[4.074s] [01m[K/home/rgeng/Project/include/database/database.hpp:18:9:[m[K [01;36m[Knote: [m[K                ‘[01m[Kdatabase::database::database(gazebo::transport::NodePtr&)[m[K’
+[4.074s]    18 |         [01;36m[Kdatabase[m[K(gazebo::transport::NodePtr& inGazeboNode);
+[4.074s]       |         [01;36m[K^~~~~~~~[m[K
+[4.075s] [01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass database::database[m[K’ defined here
+[4.075s]    11 |     class [01;36m[Kdatabase[m[K
+[4.075s]       |           [01;36m[K^~~~~~~~[m[K
+[4.906s] gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1
+[4.906s] gmake[1]: *** [CMakeFiles/Makefile2:224: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2
+[4.907s] gmake: *** [Makefile:91: all] Error 2
+[4.909s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

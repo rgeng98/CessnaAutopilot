@@ -1,0 +1,19 @@
+In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:5[m[K:
+[01m[K/home/rgeng/Project/include/objects/imu.h:18:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kquaternions_to_euler[m[K’
+   18 | EulerAngles [01;31m[Kquaternions_to_euler[m[K(Quaternion q)
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/objects/imu.h:51:1:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternions[m[K’ does not name a type; did you mean ‘[01m[KQuaternion[m[K’?
+   51 | [01;31m[KQuaternions[m[K euler_to_quaternions(const EulerAngles& angles)
+      | [01;31m[K^~~~~~~~~~~[m[K
+      | [32m[KQuaternion[m[K
+[01m[K/home/rgeng/Project/include/objects/imu.h:85:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+   85 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:14:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::msgs::IMU[m[K’ has no member named ‘[01m[Kdata[m[K’
+   14 |     std::cout << "Received message: " << data.[01;31m[Kdata[m[K() << std::endl;
+      |                                               [01;31m[K^~~~[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

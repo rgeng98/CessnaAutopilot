@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000511] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000560] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.006678] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.007134] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.007717] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rgeng'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/432_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.042703] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB\x1b[0m\n'}
+[0.046254] (QuadcopterController) StdoutLine: {'line': b'[ 15%] Built target OBJECTS\n'}
+[0.072976] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o\x1b[0m\n'}
+[0.099684] (-) TimerEvent: {}
+[0.199945] (-) TimerEvent: {}
+[0.300242] (-) TimerEvent: {}
+[0.400636] (-) TimerEvent: {}
+[0.500931] (-) TimerEvent: {}
+[0.601265] (-) TimerEvent: {}
+[0.701614] (-) TimerEvent: {}
+[0.801965] (-) TimerEvent: {}
+[0.902313] (-) TimerEvent: {}
+[1.002631] (-) TimerEvent: {}
+[1.102972] (-) TimerEvent: {}
+[1.203291] (-) TimerEvent: {}
+[1.303619] (-) TimerEvent: {}
+[1.403935] (-) TimerEvent: {}
+[1.504235] (-) TimerEvent: {}
+[1.604561] (-) TimerEvent: {}
+[1.704855] (-) TimerEvent: {}
+[1.805155] (-) TimerEvent: {}
+[1.905469] (-) TimerEvent: {}
+[2.005734] (-) TimerEvent: {}
+[2.106080] (-) TimerEvent: {}
+[2.206394] (-) TimerEvent: {}
+[2.306676] (-) TimerEvent: {}
+[2.407036] (-) TimerEvent: {}
+[2.507545] (-) TimerEvent: {}
+[2.608080] (-) TimerEvent: {}
+[2.708458] (-) TimerEvent: {}
+[2.808755] (-) TimerEvent: {}
+[2.909145] (-) TimerEvent: {}
+[3.009477] (-) TimerEvent: {}
+[3.109866] (-) TimerEvent: {}
+[3.210330] (-) TimerEvent: {}
+[3.311108] (-) TimerEvent: {}
+[3.411574] (-) TimerEvent: {}
+[3.512000] (-) TimerEvent: {}
+[3.612443] (-) TimerEvent: {}
+[3.712747] (-) TimerEvent: {}
+[3.813098] (-) TimerEvent: {}
+[3.913488] (-) TimerEvent: {}
+[4.013937] (-) TimerEvent: {}
+[4.114460] (-) TimerEvent: {}
+[4.214896] (-) TimerEvent: {}
+[4.315386] (-) TimerEvent: {}
+[4.415786] (-) TimerEvent: {}
+[4.516184] (-) TimerEvent: {}
+[4.616605] (-) TimerEvent: {}
+[4.717201] (-) TimerEvent: {}
+[4.817556] (-) TimerEvent: {}
+[4.917962] (-) TimerEvent: {}
+[5.018450] (-) TimerEvent: {}
+[5.118956] (-) TimerEvent: {}
+[5.219290] (-) TimerEvent: {}
+[5.319709] (-) TimerEvent: {}
+[5.420313] (-) TimerEvent: {}
+[5.427735] (QuadcopterController) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX static library libCONTROLLER_LIB.a\x1b[0m\n'}
+[5.520428] (-) TimerEvent: {}
+[5.620801] (-) TimerEvent: {}
+[5.721120] (-) TimerEvent: {}
+[5.731088] (QuadcopterController) StdoutLine: {'line': b'[ 53%] Built target CONTROLLER_LIB\n'}
+[5.821302] (-) TimerEvent: {}
+[5.901919] (QuadcopterController) StdoutLine: {'line': b'[ 69%] Built target MOTOR_CONTROLLER_LIB\n'}
+[5.902326] (QuadcopterController) StdoutLine: {'line': b'[ 84%] Built target DATABASE_LIB\n'}
+[5.921414] (-) TimerEvent: {}
+[5.958190] (QuadcopterController) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o\x1b[0m\n'}
+[6.021536] (-) TimerEvent: {}
+[6.121948] (-) TimerEvent: {}
+[6.222433] (-) TimerEvent: {}
+[6.322773] (-) TimerEvent: {}
+[6.423136] (-) TimerEvent: {}
+[6.523580] (-) TimerEvent: {}
+[6.623966] (-) TimerEvent: {}
+[6.724302] (-) TimerEvent: {}
+[6.824666] (-) TimerEvent: {}
+[6.925104] (-) TimerEvent: {}
+[7.025586] (-) TimerEvent: {}
+[7.125954] (-) TimerEvent: {}
+[7.226535] (-) TimerEvent: {}
+[7.326843] (-) TimerEvent: {}
+[7.427176] (-) TimerEvent: {}
+[7.527667] (-) TimerEvent: {}
+[7.628138] (-) TimerEvent: {}
+[7.728517] (-) TimerEvent: {}
+[7.828902] (-) TimerEvent: {}
+[7.929430] (-) TimerEvent: {}
+[8.029832] (-) TimerEvent: {}
+[8.130305] (-) TimerEvent: {}
+[8.230665] (-) TimerEvent: {}
+[8.331147] (-) TimerEvent: {}
+[8.431535] (-) TimerEvent: {}
+[8.531837] (-) TimerEvent: {}
+[8.632179] (-) TimerEvent: {}
+[8.732635] (-) TimerEvent: {}
+[8.832988] (-) TimerEvent: {}
+[8.933532] (-) TimerEvent: {}
+[9.034049] (-) TimerEvent: {}
+[9.134405] (-) TimerEvent: {}
+[9.234735] (-) TimerEvent: {}
+[9.335112] (-) TimerEvent: {}
+[9.435525] (-) TimerEvent: {}
+[9.535879] (-) TimerEvent: {}
+[9.636275] (-) TimerEvent: {}
+[9.736809] (-) TimerEvent: {}
+[9.837219] (-) TimerEvent: {}
+[9.937741] (-) TimerEvent: {}
+[10.038122] (-) TimerEvent: {}
+[10.138457] (-) TimerEvent: {}
+[10.238775] (-) TimerEvent: {}
+[10.339073] (-) TimerEvent: {}
+[10.439566] (-) TimerEvent: {}
+[10.540102] (-) TimerEvent: {}
+[10.640482] (-) TimerEvent: {}
+[10.740937] (-) TimerEvent: {}
+[10.841332] (-) TimerEvent: {}
+[10.941744] (-) TimerEvent: {}
+[11.042117] (-) TimerEvent: {}
+[11.142606] (-) TimerEvent: {}
+[11.243063] (-) TimerEvent: {}
+[11.343606] (-) TimerEvent: {}
+[11.444021] (-) TimerEvent: {}
+[11.463121] (QuadcopterController) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable QuadcopterController\x1b[0m\n'}
+[11.544191] (-) TimerEvent: {}
+[11.644689] (-) TimerEvent: {}
+[11.745008] (-) TimerEvent: {}
+[11.845409] (-) TimerEvent: {}
+[11.945978] (-) TimerEvent: {}
+[11.982445] (QuadcopterController) StdoutLine: {'line': b'[100%] Built target QuadcopterController\n'}
+[12.003487] (QuadcopterController) CommandEnded: {'returncode': 0}
+[12.046006] (-) TimerEvent: {}
+[12.135627] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 0}
+[12.137061] (-) EventReactorShutdown: {}

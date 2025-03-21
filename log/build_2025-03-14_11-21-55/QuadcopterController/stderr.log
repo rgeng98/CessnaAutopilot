@@ -1,0 +1,11 @@
+[01m[K/home/rgeng/Project/src/controller/base.cpp:[m[K In constructor ‘[01m[Kcontroller::Base::Base(enums::CONTROL_METHOD_ENUM)[m[K’:
+[01m[K/home/rgeng/Project/src/controller/base.cpp:8:115:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    8 |     controlPublisher = new publishers::msgPublisher<gazebo::msgs::Cessna>("/gazebo/default/cessna_c172/control")
+      |                                                                                                                   [01;31m[K^[m[K
+      |                                                                                                                   [32m[K;[m[K
+    9 | [32m[K}[m[K;
+      | [32m[K~[m[K                                                                                                                  
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

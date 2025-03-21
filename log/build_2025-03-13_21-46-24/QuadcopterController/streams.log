@@ -1,0 +1,36 @@
+[0.142s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.798s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.967s] -- Searching for dependencies of ignition-msgs5
+[2.056s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.056s] -- Searching for dependencies of ignition-math6
+[2.095s] -- Checking for module 'tinyxml2'
+[2.144s] --   Found tinyxml2, version 9.0.0
+[2.174s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.174s] -- Searching for dependencies of ignition-transport8
+[3.107s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.110s] -- Checking for module 'libzmq >= 4'
+[3.188s] --   Found libzmq , version 4.3.4
+[3.213s] -- Checking for module 'uuid'
+[3.237s] --   Found uuid, version 2.37.2
+[3.253s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.289s] -- Configuring done
+[3.461s] -- Generating done
+[3.466s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[3.546s] [  6%] [32mBuilding CXX object src/objects/CMakeFiles/OBJECTS.dir/imu.cpp.o[0m
+[3.592s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[3.631s] [ 40%] Built target CONTROLLER_LIB
+[3.651s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[3.657s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[3.658s] [ 53%] Built target MOTOR_CONTROLLER_LIB
+[3.670s] [ 66%] Built target DATABASE_LIB
+[4.331s] [ 73%] [32m[1mLinking CXX static library libOBJECTS.a[0m
+[4.385s] [ 73%] Built target OBJECTS
+[4.429s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[4.434s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[4.445s] [ 80%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[4.448s] [ 86%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[9.608s] [ 93%] [32m[1mLinking CXX executable QuadcopterController_subscriber[0m
+[9.933s] [100%] [32m[1mLinking CXX executable QuadcopterController[0m
+[10.145s] [100%] Built target QuadcopterController
+[10.165s] [100%] Built target QuadcopterController_subscriber
+[10.182s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

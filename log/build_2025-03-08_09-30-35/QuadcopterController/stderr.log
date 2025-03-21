@@ -1,0 +1,7 @@
+[01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/main.cpp:46:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPublish[m[K’ in ‘[01m[KbasicPublisher[m[K’, which is of pointer type ‘[01m[Kpublishers::msgPublisher<ignition::msgs::IMU>*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   46 |     if (!basicPublisher.[01;31m[KPublish[m[K(imu_msg)) {
+      |                         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:117: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

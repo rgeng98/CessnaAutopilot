@@ -1,0 +1,7 @@
+[01m[K/home/rgeng/Project/src/main.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport/Subscriber.hh: No such file or directory
+    6 | #include [01;31m[K<ignition/transport/Subscriber.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

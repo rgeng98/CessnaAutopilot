@@ -1,0 +1,100 @@
+[01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/main.cpp:9:29:[m[K [01;31m[Kerror: [m[K‘[01m[KYourMessageType[m[K’ was not declared in this scope
+    9 |   auto pub = node.Advertise<[01;31m[KYourMessageType[m[K>("/my_topic");
+      |                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::transport::v8::Node::Advertise<<expression error> >(const char [10])[m[K’
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:226:23:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT> ignition::transport::v8::Node::Publisher ignition::transport::v8::Node::Advertise(const string&, const ignition::transport::v8::AdvertiseMessageOptions&)[m[K’
+  226 |       Node::Publisher [01;36m[KAdvertise[m[K(
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:226:23:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:372:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RequestT, class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, bool (*)(const RequestT&, ReplyT&), const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  372 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:372:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:389:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, bool (*)(ReplyT&), const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  389 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:389:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:405:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RequestT> bool ignition::transport::v8::Node::Advertise(const string&, void (*)(const RequestT&), const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  405 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:405:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:423:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RequestT, class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, std::function<bool(const Req&, Rep&)>, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  423 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:423:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:441:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, std::function<bool(ReplyT&)>&, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  441 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:441:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:457:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RequestT> bool ignition::transport::v8::Node::Advertise(const string&, std::function<void(const T&)>&, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  457 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:457:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:476:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ClassT, class RequestT, class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, bool (ClassT::*)(const RequestT&, ReplyT&), ClassT*, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  476 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:476:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:495:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ClassT, class ReplyT> bool ignition::transport::v8::Node::Advertise(const string&, bool (ClassT::*)(ReplyT&), ClassT*, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  495 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:495:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/transport8/ignition/transport.hh:31[m[K,
+                 from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:513:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ClassT, class RequestT> bool ignition::transport::v8::Node::Advertise(const string&, void (ClassT::*)(const RequestT&), ClassT*, const ignition::transport::v8::AdvertiseServiceOptions&)[m[K’
+  513 |       bool [01;36m[KAdvertise[m[K(
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:513:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:9:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   auto pub = [01;31m[Knode.Advertise<YourMessageType>("/my_topic")[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

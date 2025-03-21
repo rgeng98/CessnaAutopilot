@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000308] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.006240] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.006884] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.007431] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rgeng'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/698_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.059392] (QuadcopterController) StdoutLine: {'line': b'[ 15%] Built target OBJECTS\n'}
+[0.070161] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB\x1b[0m\n'}
+[0.099326] (-) TimerEvent: {}
+[0.162050] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o\x1b[0m\n'}
+[0.162694] (QuadcopterController) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o\x1b[0m\n'}
+[0.166421] (QuadcopterController) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o\x1b[0m\n'}
+[0.168264] (QuadcopterController) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o\x1b[0m\n'}
+[0.199499] (-) TimerEvent: {}
+[0.299935] (-) TimerEvent: {}
+[0.400956] (-) TimerEvent: {}
+[0.502074] (-) TimerEvent: {}
+[0.603214] (-) TimerEvent: {}
+[0.704352] (-) TimerEvent: {}
+[0.805045] (-) TimerEvent: {}
+[0.906110] (-) TimerEvent: {}
+[1.007182] (-) TimerEvent: {}
+[1.108225] (-) TimerEvent: {}
+[1.209241] (-) TimerEvent: {}
+[1.310156] (-) TimerEvent: {}
+[1.411343] (-) TimerEvent: {}
+[1.512277] (-) TimerEvent: {}
+[1.613379] (-) TimerEvent: {}
+[1.713892] (-) TimerEvent: {}
+[1.814612] (-) TimerEvent: {}
+[1.915616] (-) TimerEvent: {}
+[2.016591] (-) TimerEvent: {}
+[2.117435] (-) TimerEvent: {}
+[2.218289] (-) TimerEvent: {}
+[2.319095] (-) TimerEvent: {}
+[2.419879] (-) TimerEvent: {}
+[2.520378] (-) TimerEvent: {}
+[2.620891] (-) TimerEvent: {}
+[2.721437] (-) TimerEvent: {}
+[2.822055] (-) TimerEvent: {}
+[2.922890] (-) TimerEvent: {}
+[3.023787] (-) TimerEvent: {}
+[3.124521] (-) TimerEvent: {}
+[3.225260] (-) TimerEvent: {}
+[3.326006] (-) TimerEvent: {}
+[3.426720] (-) TimerEvent: {}
+[3.527451] (-) TimerEvent: {}
+[3.628208] (-) TimerEvent: {}
+[3.728922] (-) TimerEvent: {}
+[3.829702] (-) TimerEvent: {}
+[3.930369] (-) TimerEvent: {}
+[4.031064] (-) TimerEvent: {}
+[4.131678] (-) TimerEvent: {}
+[4.232294] (-) TimerEvent: {}
+[4.332906] (-) TimerEvent: {}
+[4.433480] (-) TimerEvent: {}
+[4.534192] (-) TimerEvent: {}
+[4.634940] (-) TimerEvent: {}
+[4.735727] (-) TimerEvent: {}
+[4.836394] (-) TimerEvent: {}
+[4.936856] (-) TimerEvent: {}
+[5.037420] (-) TimerEvent: {}
+[5.137885] (-) TimerEvent: {}
+[5.238356] (-) TimerEvent: {}
+[5.338933] (-) TimerEvent: {}
+[5.439515] (-) TimerEvent: {}
+[5.540170] (-) TimerEvent: {}
+[5.640626] (-) TimerEvent: {}
+[5.741079] (-) TimerEvent: {}
+[5.841583] (-) TimerEvent: {}
+[5.942079] (-) TimerEvent: {}
+[6.042589] (-) TimerEvent: {}
+[6.143059] (-) TimerEvent: {}
+[6.243483] (-) TimerEvent: {}
+[6.343972] (-) TimerEvent: {}
+[6.444427] (-) TimerEvent: {}
+[6.544937] (-) TimerEvent: {}
+[6.645612] (-) TimerEvent: {}
+[6.746126] (-) TimerEvent: {}
+[6.846565] (-) TimerEvent: {}
+[6.947016] (-) TimerEvent: {}
+[7.047459] (-) TimerEvent: {}
+[7.147834] (-) TimerEvent: {}
+[7.248517] (-) TimerEvent: {}
+[7.348987] (-) TimerEvent: {}
+[7.449450] (-) TimerEvent: {}
+[7.549836] (-) TimerEvent: {}
+[7.967621] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[7.967856] (-) TimerEvent: {}
+[7.967966] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[7.968081] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.968166] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.968234] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[7.968306] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.968382] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.968451] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[7.968525] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.968575] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.968627] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.968668] (QuadcopterController) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.968707] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.968746] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[7.968785] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[7.968823] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[7.968860] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.968899] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.968937] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[7.968975] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.969013] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.969052] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[7.969089] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.969124] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.969161] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.969197] (QuadcopterController) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.969240] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.969276] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[7.969311] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[7.969347] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[7.969382] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.969424] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.969462] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[7.969498] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.969535] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.969573] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[7.969650] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.969697] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.969738] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.969777] (QuadcopterController) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.969816] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.986676] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[7.986883] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[7.986959] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[7.987017] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.987071] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.987123] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[7.987190] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.987289] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.987371] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[7.987422] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.987470] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.987553] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.987610] (QuadcopterController) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.987662] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.068021] (-) TimerEvent: {}
+[8.168461] (-) TimerEvent: {}
+[8.268903] (-) TimerEvent: {}
+[8.369329] (-) TimerEvent: {}
+[8.469871] (-) TimerEvent: {}
+[8.570427] (-) TimerEvent: {}
+[8.670937] (-) TimerEvent: {}
+[8.771351] (-) TimerEvent: {}
+[8.871850] (-) TimerEvent: {}
+[8.972334] (-) TimerEvent: {}
+[9.072832] (-) TimerEvent: {}
+[9.173358] (-) TimerEvent: {}
+[9.273918] (-) TimerEvent: {}
+[9.374364] (-) TimerEvent: {}
+[9.392391] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1\n'}
+[9.392632] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.414259] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1\n'}
+[9.451930] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1\n'}
+[9.474486] (-) TimerEvent: {}
+[9.534821] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1\n'}
+[9.535295] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2\n'}
+[9.535553] (QuadcopterController) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[9.537855] (QuadcopterController) CommandEnded: {'returncode': 2}
+[9.538124] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 2}
+[9.548644] (-) EventReactorShutdown: {}

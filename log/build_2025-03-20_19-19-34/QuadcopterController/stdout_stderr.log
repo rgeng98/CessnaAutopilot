@@ -1,0 +1,91 @@
+[ 15%] Built target OBJECTS
+[35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[ 53%] Built target CONTROLLER_LIB
+[ 69%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o[0m
+[ 76%] [32m[1mLinking CXX static library libMOTOR_CONTROLLER_LIB.a[0m
+[ 76%] Built target MOTOR_CONTROLLER_LIB
+In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/database/database.hpp:14:51:[m[K [01;31m[Kerror: [m[K‘[01m[KIMU[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’
+   14 |         subscriber::msgSubscriber<ignition::msgs::[01;31m[KIMU[m[K>* imuSubscriber;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:14:51:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/rgeng/Project/include/database/database.hpp:6[m[K,
+                 from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/enums/enumerations.hpp:14:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kenums::MSG_TOPICS::IMU[m[K’
+   14 |     [01;36m[KIMU[m[K
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:45[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/database/database.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:83:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgazebo::msgs::IMU[m[K’
+   83 | class GZ_MSGS_VISIBLE [01;36m[KIMU[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~[m[K
+In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/database/database.hpp:14:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |         subscriber::msgSubscriber<ignition::msgs::IMU[01;31m[K>[m[K* imuSubscriber;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:5:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdatabase::database::database()[m[K’
+    5 |     [01;31m[Kdatabase[m[K::database(){
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr database::database::database(database::database&&)[m[K’
+   11 |     class [01;36m[Kdatabase[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr database::database::database(const database::database&)[m[K’
+[01m[K/home/rgeng/Project/include/database/database.hpp:18:9:[m[K [01;36m[Knote: [m[K                ‘[01m[Kdatabase::database::database(gazebo::transport::NodePtr&)[m[K’
+   18 |         [01;36m[Kdatabase[m[K(gazebo::transport::NodePtr& inGazeboNode);
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass database::database[m[K’ defined here
+   11 |     class [01;36m[Kdatabase[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In member function ‘[01m[Kobjects::imu database::database::getIMUData()[m[K’:
+[01m[K/home/rgeng/Project/src/database/database.cpp:10:25:[m[K [01;31m[Kerror: [m[K‘[01m[KIMU[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’
+   10 |         ignition::msgs::[01;31m[KIMU[m[K imuMsg = imuSubscriber->getMessageData();
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:10:25:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/rgeng/Project/include/database/database.hpp:6[m[K,
+                 from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/enums/enumerations.hpp:14:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kenums::MSG_TOPICS::IMU[m[K’
+   14 |     [01;36m[KIMU[m[K
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:45[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/database/database.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:83:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgazebo::msgs::IMU[m[K’
+   83 | class GZ_MSGS_VISIBLE [01;36m[KIMU[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:13:31:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternion[m[K’ in namespace ‘[01m[Kignition::msgs[m[K’ does not name a type
+   13 |         const ignition::msgs::[01;31m[KQuaternion[m[K& orientation = imuMsg.orientation();
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:14:31:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3d[m[K’ in namespace ‘[01m[Kignition::msgs[m[K’ does not name a type
+   14 |         const ignition::msgs::[01;31m[KVector3d[m[K& angular_velocity = imuMsg.angular_velocity();
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3d[m[K’ in namespace ‘[01m[Kignition::msgs[m[K’ does not name a type
+   15 |         const ignition::msgs::[01;31m[KVector3d[m[K& linear_acceleration = imuMsg.linear_acceleration();
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:16:21:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation[m[K’ was not declared in this scope
+   16 |         data.q.x =  [01;31m[Korientation[m[K.x();
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_velocity[m[K’ was not declared in this scope
+   21 |         data.ang_vel.x = [01;31m[Kangular_velocity[m[K.x();
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/database/database.cpp:25:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_acceleration[m[K’ was not declared in this scope
+   25 |         data.accel.x = [01;31m[Klinear_acceleration[m[K.x();
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:224: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

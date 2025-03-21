@@ -1,0 +1,19 @@
+[0.102s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[1.217s] [ 55%] Built target CONTROLLER_LIB
+[1.298s] [ 77%] Built target QuadcopterController
+[1.301s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[1.316s] [ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[5.120s] In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:4[m[K:
+[5.121s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In member function ‘[01m[KT subscriber::msgSubscriber<T>::getMessageData()[m[K’:
+[5.121s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:31:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackData[m[K’ was not declared in this scope; did you mean ‘[01m[Kcallback[m[K’?
+[5.121s]    31 |         return [01;31m[KcallbackData[m[K;
+[5.121s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[5.121s]       |                [32m[Kcallback[m[K
+[5.122s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.122s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:13:53:[m[K [01;31m[Kerror: [m[K‘[01m[KcallbackData[m[K’ is not a member of ‘[01m[Ksubscriber[m[K’
+[5.122s]    13 |     std::cout << "Global variable: " << subscriber::[01;31m[KcallbackData[m[K.data() << std::endl;
+[5.122s]       |                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[6.149s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[6.150s] gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[6.150s] gmake: *** [Makefile:91: all] Error 2
+[6.185s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

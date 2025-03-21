@@ -1,0 +1,28 @@
+[0.082s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.868s] [ 38%] Built target CONTROLLER_LIB
+[0.924s] [ 53%] Built target MOTOR_CONTROLLER_LIB
+[0.929s] [ 61%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[6.254s] [ 69%] [32m[1mLinking CXX static library libDATABASE_LIB.a[0m
+[6.422s] [ 69%] Built target DATABASE_LIB
+[6.558s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[6.568s] [ 76%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[6.573s] [ 84%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[9.666s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.666s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:9:24:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[9.666s]     9 |   database::database db[01;35m[K()[m[K;
+[9.666s]       |                        [01;35m[K^~[m[K
+[9.666s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:9:24:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[9.667s]     9 |   database::database db[01;36m[K()[m[K;
+[9.667s]       |                        [01;36m[K^~[m[K
+[9.667s]       |                        [31m[K--[m[K
+[9.667s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:9:24:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[9.667s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:12:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetIMUData[m[K’ in ‘[01m[Kdb[m[K’, which is of non-class type ‘[01m[Kdatabase::database()[m[K’
+[9.667s]    12 |     auto data = db.[01;31m[KgetIMUData[m[K();
+[9.667s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[10.614s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[10.614s] gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[10.614s] gmake[1]: *** Waiting for unfinished jobs....
+[11.462s] [ 92%] [32m[1mLinking CXX executable QuadcopterController[0m
+[11.977s] [ 92%] Built target QuadcopterController
+[11.978s] gmake: *** [Makefile:91: all] Error 2
+[11.980s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

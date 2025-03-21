@@ -1,0 +1,18 @@
+[0.104s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.921s] [ 38%] Built target CONTROLLER_LIB
+[1.056s] [ 53%] Built target MOTOR_CONTROLLER_LIB
+[1.066s] [ 61%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[5.694s] [ 69%] [32m[1mLinking CXX static library libDATABASE_LIB.a[0m
+[5.804s] [ 69%] Built target DATABASE_LIB
+[5.907s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[5.908s] [ 76%] [32m[1mLinking CXX executable QuadcopterController[0m
+[5.921s] [ 84%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[6.687s] [ 92%] Built target QuadcopterController
+[9.021s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.021s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[KGlobalDatabase[m[K’ is not a member of ‘[01m[Kdatabase[m[K’
+[9.021s]    12 |     auto data = GlobalData[01;31m[Kbase.getIMUDat[m[Ka();
+[9.021s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.821s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[9.821s] gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[9.822s] gmake: *** [Makefile:91: all] Error 2
+[9.835s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000204] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.005103] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.005488] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.005913] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rgeng'), ('OLDPWD', '/home/rgeng/Project/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/657_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.029431] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.029510] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.099329] (-) TimerEvent: {}
+[0.199523] (-) TimerEvent: {}
+[0.299810] (-) TimerEvent: {}
+[0.400092] (-) TimerEvent: {}
+[0.500362] (-) TimerEvent: {}
+[0.512036] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.512279] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.515404] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.521484] (QuadcopterController) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.537166] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.537430] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.600453] (-) TimerEvent: {}
+[0.700733] (-) TimerEvent: {}
+[0.801007] (-) TimerEvent: {}
+[0.901300] (-) TimerEvent: {}
+[1.001597] (-) TimerEvent: {}
+[1.101907] (-) TimerEvent: {}
+[1.202229] (-) TimerEvent: {}
+[1.302516] (-) TimerEvent: {}
+[1.321899] (QuadcopterController) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.325343] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.331758] (QuadcopterController) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.353105] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.358969] (QuadcopterController) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.374835] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.375380] (QuadcopterController) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.376592] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.377145] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.377197] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.377239] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.377278] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.377316] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.377353] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377389] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.377426] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.377462] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.377498] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.377535] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.377571] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.377606] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377642] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.377677] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.377713] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.377748] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.377783] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.377817] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.377851] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377885] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.377924] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.377958] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.377993] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.378028] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.378063] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.378099] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378135] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.378170] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.378205] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.378239] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.378273] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.378306] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.378340] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378374] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:8 (add_executable):\n'}
+[1.378410] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController" links to target\n'}
+[1.378447] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.378482] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.378517] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.378551] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.378584] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378618] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.378652] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.378686] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.378719] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.378753] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.378786] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.378820] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378854] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.378888] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.378922] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.378956] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.378991] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.379025] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.379059] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379093] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.379126] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.379160] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.379194] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.379227] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.379265] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.379299] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379337] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.379372] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.379406] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.379440] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.379473] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.379507] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.379540] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379574] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.379607] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.379641] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.379674] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.379707] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.379740] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.379774] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379808] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:9 (add_executable):\n'}
+[1.379843] (QuadcopterController) StderrLine: {'line': b'  Target "QuadcopterController_subscriber" links to target\n'}
+[1.379877] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.379911] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.379944] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.379981] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.380014] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380047] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/controller/CMakeLists.txt:3 (add_library):\n'}
+[1.380080] (QuadcopterController) StderrLine: {'line': b'  Target "CONTROLLER_LIB" links to target "ignition-msgs5::ignition-msgs5"\n'}
+[1.380113] (QuadcopterController) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[1.380146] (QuadcopterController) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[1.380179] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.380212] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380245] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/controller/CMakeLists.txt:3 (add_library):\n'}
+[1.380278] (QuadcopterController) StderrLine: {'line': b'  Target "CONTROLLER_LIB" links to target\n'}
+[1.380312] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.380346] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.380380] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.380414] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.380449] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380484] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):\n'}
+[1.380522] (QuadcopterController) StderrLine: {'line': b'  Target "DATABASE_LIB" links to target "ignition-msgs5::ignition-msgs5" but\n'}
+[1.380557] (QuadcopterController) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.380595] (QuadcopterController) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.380629] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.380664] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380699] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):\n'}
+[1.380736] (QuadcopterController) StderrLine: {'line': b'  Target "DATABASE_LIB" links to target\n'}
+[1.380772] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.380819] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.380866] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.380904] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.380942] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380978] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):\n'}
+[1.381012] (QuadcopterController) StderrLine: {'line': b'  Target "DATABASE_LIB" links to target "ignition-msgs5::ignition-msgs5" but\n'}
+[1.381046] (QuadcopterController) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.381081] (QuadcopterController) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.381115] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.381152] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.381186] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/database/CMakeLists.txt:3 (add_library):\n'}
+[1.381220] (QuadcopterController) StderrLine: {'line': b'  Target "DATABASE_LIB" links to target\n'}
+[1.381254] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.381287] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.381320] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.381353] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.381386] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.381418] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):\n'}
+[1.381451] (QuadcopterController) StderrLine: {'line': b'  Target "MOTOR_CONTROLLER_LIB" links to target\n'}
+[1.381484] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.381517] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.381550] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.381582] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.381616] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.381650] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):\n'}
+[1.381684] (QuadcopterController) StderrLine: {'line': b'  Target "MOTOR_CONTROLLER_LIB" links to target\n'}
+[1.381717] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.381751] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.381784] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.381816] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.381849] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.381882] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):\n'}
+[1.381915] (QuadcopterController) StderrLine: {'line': b'  Target "MOTOR_CONTROLLER_LIB" links to target\n'}
+[1.381948] (QuadcopterController) StderrLine: {'line': b'  "ignition-msgs5::ignition-msgs5" but the target was not found.  Perhaps a\n'}
+[1.381986] (QuadcopterController) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.382023] (QuadcopterController) StderrLine: {'line': b'  is missing?\n'}
+[1.382057] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.382090] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.382123] (QuadcopterController) StderrLine: {'line': b'\x1b[31mCMake Error at src/MotorDriver/CMakeLists.txt:1 (add_library):\n'}
+[1.382155] (QuadcopterController) StderrLine: {'line': b'  Target "MOTOR_CONTROLLER_LIB" links to target\n'}
+[1.382188] (QuadcopterController) StderrLine: {'line': b'  "ignition-transport8::ignition-transport8" but the target was not found.\n'}
+[1.382221] (QuadcopterController) StderrLine: {'line': b'  Perhaps a find_package() call is missing for an IMPORTED target, or an\n'}
+[1.382254] (QuadcopterController) StderrLine: {'line': b'  ALIAS target is missing?\n'}
+[1.382287] (QuadcopterController) StderrLine: {'line': b'\n'}
+[1.382319] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.383717] (QuadcopterController) StdoutLine: {'line': b'-- Generating done\n'}
+[1.384924] (QuadcopterController) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.386661] (QuadcopterController) StderrLine: {'line': b'gmake: *** [Makefile:208: cmake_check_build_system] Error 1\n'}
+[1.388455] (QuadcopterController) CommandEnded: {'returncode': 2}
+[1.388653] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 2}
+[1.398993] (-) EventReactorShutdown: {}

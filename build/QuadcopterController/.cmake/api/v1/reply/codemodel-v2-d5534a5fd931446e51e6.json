@@ -1,0 +1,179 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/controller",
+					"jsonFile" : "directory-src.controller-10300bd2e2127887bad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/controller",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/database",
+					"jsonFile" : "directory-src.database-bc47545b602a2b73f466.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/database",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/MotorDriver",
+					"jsonFile" : "directory-src.MotorDriver-e1734cca2ba65610ec22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/MotorDriver",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/objects",
+					"jsonFile" : "directory-src.objects-b37b55ee13425c49c978.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/objects",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "QuadcopterController",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "CONTROLLER_LIB::@837b442b54436f7e89c3",
+					"jsonFile" : "target-CONTROLLER_LIB-a867095380a01f4e7277.json",
+					"name" : "CONTROLLER_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DATABASE_LIB::@f1aa34bc7b1afc1810b8",
+					"jsonFile" : "target-DATABASE_LIB-34bf2e89a0db8a419612.json",
+					"name" : "DATABASE_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MOTOR_CONTROLLER_LIB::@91500a0a1128a1b04272",
+					"jsonFile" : "target-MOTOR_CONTROLLER_LIB-c00830766ec785ad3a3d.json",
+					"name" : "MOTOR_CONTROLLER_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "OBJECTS::@a2d9f1c4857c2d424f57",
+					"jsonFile" : "target-OBJECTS-4ebc0004a7729fc0ddfe.json",
+					"name" : "OBJECTS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QuadcopterController::@145eef247bfb46b6828c",
+					"jsonFile" : "target-QuadcopterController-b610649995a9e957bd68.json",
+					"name" : "QuadcopterController",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rgeng/Project/build/QuadcopterController",
+		"source" : "/home/rgeng/Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,43 @@
+[ 15%] Built target OBJECTS
+[35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[ 53%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[ 69%] Built target MOTOR_CONTROLLER_LIB
+[ 84%] Built target DATABASE_LIB
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/main.cpp:12:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+   12 |   gazebo::[01;31m[Kclient[m[K::setup(argc, argv);
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers[m[K’ has not been declared
+   17 |   [01;31m[Ksubscribers[m[K::msgSubscriber<gazebo::msgs::IMU>* subscriber = new subscribers::msgSubscriber<IMU>("~/cessna_c172/state", node);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:17:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   17 |   subscribers::msgSubscriber<gazebo::msgs::IMU[01;31m[K>[m[K* subscriber = new subscribers::msgSubscriber<IMU>("~/cessna_c172/state", node);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:17:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   17 |   subscribers::msgSubscriber<gazebo::msgs::IMU>* subscriber [01;31m[K=[m[K new subscribers::msgSubscriber<IMU>("~/cessna_c172/state", node);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:17:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers[m[K’ does not name a type
+   17 |   subscribers::msgSubscriber<gazebo::msgs::IMU>* subscriber = new [01;31m[Ksubscribers[m[K::msgSubscriber<IMU>("~/cessna_c172/state", node);
+      |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:18:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdatabase::database::database(gazebo::transport::NodePtr&)[m[K’
+   18 |   database::database* db = new database::database(node[01;31m[K)[m[K;
+      |                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/rgeng/Project/src/main.cpp:2[m[K:
+[01m[K/home/rgeng/Project/include/database/database.hpp:18:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdatabase::database::database(subscriber::msgSubscriber<gazebo::msgs::IMU>*)[m[K’
+   18 |         [01;36m[Kdatabase[m[K(subscriber::msgSubscriber<gazebo::msgs::IMU>* imuSubscriber);
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:18:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::transport::NodePtr[m[K’ {aka ‘[01m[Kboost::shared_ptr<gazebo::transport::Node>[m[K’} to ‘[01m[Ksubscriber::msgSubscriber<gazebo::msgs::IMU>*[m[K’
+   18 |         database([01;36m[Ksubscriber::msgSubscriber<gazebo::msgs::IMU>* imuSubscriber[m[K);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr database::database::database(const database::database&)[m[K’
+   11 |     class [01;36m[Kdatabase[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::transport::NodePtr[m[K’ {aka ‘[01m[Kboost::shared_ptr<gazebo::transport::Node>[m[K’} to ‘[01m[Kconst database::database&[m[K’
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr database::database::database(database::database&&)[m[K’
+[01m[K/home/rgeng/Project/include/database/database.hpp:11:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgazebo::transport::NodePtr[m[K’ {aka ‘[01m[Kboost::shared_ptr<gazebo::transport::Node>[m[K’} to ‘[01m[Kdatabase::database&&[m[K’
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:172: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

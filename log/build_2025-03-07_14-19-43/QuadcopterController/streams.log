@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.046s] [ 55%] Built target CONTROLLER_LIB
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[0.063s] [ 77%] Built target QuadcopterController
+[0.069s] [ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[2.582s] In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:4[m[K:
+[2.582s] /home/rgeng/Project/include/subscribers/msgSubscriber.hpp: In instantiation of ‘[01m[Kvoid subscriber::mCallback(const T&) [with T = ignition::msgs::StringMsg][m[K’:
+[2.582s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:19:32:[m[K   required from ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&) [with T = ignition::msgs::StringMsg; std::string = std::__cxx11::basic_string<char>][m[K’
+[2.582s] [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:6:142:[m[K   required from here
+[2.582s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition::msgs::StringMsg subscriber::msgSubscriber<ignition::msgs::StringMsg>::data[m[K’ is private within this context
+[2.582s]    34 |     msgSubscriber<T>::[01;31m[Kdata[m[K = msg;
+[2.582s]       |                       [01;31m[K^~~~[m[K
+[2.582s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:15:7:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.582s]    15 |     T [01;36m[Kdata[m[K;
+[2.582s]       |       [01;36m[K^~~~[m[K
+[2.582s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:34:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[Ksubscriber::msgSubscriber<ignition::msgs::StringMsg>::data[m[K’
+[2.583s]    34 |     msgSubscriber<T>::[01;31m[Kdata[m[K = msg;
+[2.583s]       |                       [01;31m[K^~~~[m[K
+[2.583s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:15:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.583s]    15 |     T [01;36m[Kdata[m[K;
+[2.583s]       |       [01;36m[K^~~~[m[K
+[3.369s] gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+[3.370s] gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+[3.370s] gmake: *** [Makefile:91: all] Error 2
+[3.372s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

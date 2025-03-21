@@ -1,0 +1,585 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000741] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.008482] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.009124] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.009818] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rgeng'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/698_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.036623] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.041005] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.099640] (-) TimerEvent: {}
+[0.199989] (-) TimerEvent: {}
+[0.300420] (-) TimerEvent: {}
+[0.400728] (-) TimerEvent: {}
+[0.501032] (-) TimerEvent: {}
+[0.601337] (-) TimerEvent: {}
+[0.654465] (QuadcopterController) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.654952] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.655326] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.658825] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.665686] (QuadcopterController) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.682481] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.682826] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.701409] (-) TimerEvent: {}
+[0.801699] (-) TimerEvent: {}
+[0.902024] (-) TimerEvent: {}
+[1.002344] (-) TimerEvent: {}
+[1.102666] (-) TimerEvent: {}
+[1.202988] (-) TimerEvent: {}
+[1.303314] (-) TimerEvent: {}
+[1.403636] (-) TimerEvent: {}
+[1.503951] (-) TimerEvent: {}
+[1.604292] (-) TimerEvent: {}
+[1.704613] (-) TimerEvent: {}
+[1.775588] (QuadcopterController) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.779121] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.786143] (QuadcopterController) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.804688] (-) TimerEvent: {}
+[1.808674] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.815575] (QuadcopterController) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.833502] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.837526] (QuadcopterController) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.837775] (QuadcopterController) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.837873] (QuadcopterController) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.837923] (QuadcopterController) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.838016] (QuadcopterController) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.838082] (QuadcopterController) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.838142] (QuadcopterController) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.838207] (QuadcopterController) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.838266] (QuadcopterController) StderrLine: {'line': b'  CMakeLists.txt:7 (find_package)\n'}
+[1.838308] (QuadcopterController) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.838359] (QuadcopterController) StderrLine: {'line': b'\x1b[0m\n'}
+[1.856104] (QuadcopterController) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.879435] (QuadcopterController) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.880387] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.880980] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.884769] (QuadcopterController) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.885055] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.892778] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.893028] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.893167] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.893299] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.893418] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.893535] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.893671] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.893730] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.893786] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.893839] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.893892] (QuadcopterController) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.893943] (QuadcopterController) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.904739] (-) TimerEvent: {}
+[2.004990] (-) TimerEvent: {}
+[2.105399] (-) TimerEvent: {}
+[2.205801] (-) TimerEvent: {}
+[2.306247] (-) TimerEvent: {}
+[2.406606] (-) TimerEvent: {}
+[2.506963] (-) TimerEvent: {}
+[2.607382] (-) TimerEvent: {}
+[2.708122] (-) TimerEvent: {}
+[2.810122] (-) TimerEvent: {}
+[2.911838] (-) TimerEvent: {}
+[3.013839] (-) TimerEvent: {}
+[3.115862] (-) TimerEvent: {}
+[3.217871] (-) TimerEvent: {}
+[3.319940] (-) TimerEvent: {}
+[3.421971] (-) TimerEvent: {}
+[3.524009] (-) TimerEvent: {}
+[3.626009] (-) TimerEvent: {}
+[3.727845] (-) TimerEvent: {}
+[3.829588] (-) TimerEvent: {}
+[3.931414] (-) TimerEvent: {}
+[4.033081] (-) TimerEvent: {}
+[4.280422] (-) TimerEvent: {}
+[4.382172] (-) TimerEvent: {}
+[4.483908] (-) TimerEvent: {}
+[4.585669] (-) TimerEvent: {}
+[4.687456] (-) TimerEvent: {}
+[4.788975] (-) TimerEvent: {}
+[4.890460] (-) TimerEvent: {}
+[4.991963] (-) TimerEvent: {}
+[5.093424] (-) TimerEvent: {}
+[5.194931] (-) TimerEvent: {}
+[5.296427] (-) TimerEvent: {}
+[5.397926] (-) TimerEvent: {}
+[5.499436] (-) TimerEvent: {}
+[5.600946] (-) TimerEvent: {}
+[5.702365] (-) TimerEvent: {}
+[5.803658] (-) TimerEvent: {}
+[5.904951] (-) TimerEvent: {}
+[6.006266] (-) TimerEvent: {}
+[6.107564] (-) TimerEvent: {}
+[6.208765] (-) TimerEvent: {}
+[6.310063] (-) TimerEvent: {}
+[6.411371] (-) TimerEvent: {}
+[6.512675] (-) TimerEvent: {}
+[6.613977] (-) TimerEvent: {}
+[6.715171] (-) TimerEvent: {}
+[6.816273] (-) TimerEvent: {}
+[6.917409] (-) TimerEvent: {}
+[7.018553] (-) TimerEvent: {}
+[7.119720] (-) TimerEvent: {}
+[7.220864] (-) TimerEvent: {}
+[7.321856] (-) TimerEvent: {}
+[7.422961] (-) TimerEvent: {}
+[7.524155] (-) TimerEvent: {}
+[7.625274] (-) TimerEvent: {}
+[7.726388] (-) TimerEvent: {}
+[7.827476] (-) TimerEvent: {}
+[7.928452] (-) TimerEvent: {}
+[8.029418] (-) TimerEvent: {}
+[8.130365] (-) TimerEvent: {}
+[8.231334] (-) TimerEvent: {}
+[8.331683] (-) TimerEvent: {}
+[8.432568] (-) TimerEvent: {}
+[8.533533] (-) TimerEvent: {}
+[8.634483] (-) TimerEvent: {}
+[8.735344] (-) TimerEvent: {}
+[8.836153] (-) TimerEvent: {}
+[8.936994] (-) TimerEvent: {}
+[9.032746] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.158103] (-) TimerEvent: {}
+[9.158227] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[9.158290] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.158336] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.158377] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[9.158441] (QuadcopterController) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[9.158486] (QuadcopterController) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[9.158527] (QuadcopterController) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[9.158567] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[9.158606] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[9.158644] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.158682] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[9.158729] (QuadcopterController) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[9.258716] (-) TimerEvent: {}
+[9.359623] (-) TimerEvent: {}
+[9.460368] (-) TimerEvent: {}
+[9.561194] (-) TimerEvent: {}
+[9.662028] (-) TimerEvent: {}
+[9.729756] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[9.736634] (QuadcopterController) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[9.757837] (QuadcopterController) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[9.762116] (-) TimerEvent: {}
+[9.764820] (QuadcopterController) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[9.782368] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.782636] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.782934] (QuadcopterController) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.786465] (QuadcopterController) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.790056] (QuadcopterController) StderrLine: {'line': b'\x1b[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.\x1b[0m\n'}
+[9.790142] (QuadcopterController) StderrLine: {'line': b'\x1b[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins".  Targets may link only to libraries.  CMake is dropping the item.\x1b[0m\n'}
+[9.790202] (QuadcopterController) StderrLine: {'line': b'\x1b[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.\x1b[0m\n'}
+[9.790379] (QuadcopterController) StderrLine: {'line': b'\x1b[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins".  Targets may link only to libraries.  CMake is dropping the item.\x1b[0m\n'}
+[9.797083] (QuadcopterController) StdoutLine: {'line': b'-- Generating done\n'}
+[9.862485] (-) TimerEvent: {}
+[9.919711] (QuadcopterController) StdoutLine: {'line': b'-- Build files have been written to: /home/rgeng/Project/build/QuadcopterController\n'}
+[9.938596] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target OBJECTS\x1b[0m\n'}
+[9.940538] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB\x1b[0m\n'}
+[9.948991] (QuadcopterController) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/objects/CMakeFiles/OBJECTS.dir/imu.cpp.o\x1b[0m\n'}
+[9.962634] (-) TimerEvent: {}
+[9.965062] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o\x1b[0m\n'}
+[9.965233] (QuadcopterController) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o\x1b[0m\n'}
+[9.965635] (QuadcopterController) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o\x1b[0m\n'}
+[9.966274] (QuadcopterController) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o\x1b[0m\n'}
+[10.062790] (-) TimerEvent: {}
+[10.163175] (-) TimerEvent: {}
+[10.263526] (-) TimerEvent: {}
+[10.363882] (-) TimerEvent: {}
+[10.464257] (-) TimerEvent: {}
+[10.564623] (-) TimerEvent: {}
+[10.665093] (-) TimerEvent: {}
+[10.765494] (-) TimerEvent: {}
+[10.865863] (-) TimerEvent: {}
+[10.913014] (QuadcopterController) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libOBJECTS.a\x1b[0m\n'}
+[10.966013] (-) TimerEvent: {}
+[11.016443] (QuadcopterController) StdoutLine: {'line': b'[ 46%] Built target OBJECTS\n'}
+[11.066158] (-) TimerEvent: {}
+[11.166614] (-) TimerEvent: {}
+[11.266971] (-) TimerEvent: {}
+[11.367421] (-) TimerEvent: {}
+[11.467766] (-) TimerEvent: {}
+[11.568075] (-) TimerEvent: {}
+[11.668390] (-) TimerEvent: {}
+[11.768715] (-) TimerEvent: {}
+[11.869027] (-) TimerEvent: {}
+[11.969343] (-) TimerEvent: {}
+[12.069663] (-) TimerEvent: {}
+[12.170026] (-) TimerEvent: {}
+[12.270457] (-) TimerEvent: {}
+[12.370804] (-) TimerEvent: {}
+[12.471162] (-) TimerEvent: {}
+[12.571515] (-) TimerEvent: {}
+[12.671880] (-) TimerEvent: {}
+[12.772207] (-) TimerEvent: {}
+[12.872900] (-) TimerEvent: {}
+[12.973876] (-) TimerEvent: {}
+[13.074222] (-) TimerEvent: {}
+[13.174567] (-) TimerEvent: {}
+[13.274911] (-) TimerEvent: {}
+[13.375234] (-) TimerEvent: {}
+[13.475564] (-) TimerEvent: {}
+[13.575973] (-) TimerEvent: {}
+[13.676532] (-) TimerEvent: {}
+[13.777447] (-) TimerEvent: {}
+[13.877777] (-) TimerEvent: {}
+[13.978092] (-) TimerEvent: {}
+[14.078447] (-) TimerEvent: {}
+[14.198536] (-) TimerEvent: {}
+[14.298923] (-) TimerEvent: {}
+[14.399260] (-) TimerEvent: {}
+[14.499579] (-) TimerEvent: {}
+[14.599901] (-) TimerEvent: {}
+[14.700225] (-) TimerEvent: {}
+[14.800488] (-) TimerEvent: {}
+[14.900806] (-) TimerEvent: {}
+[15.001142] (-) TimerEvent: {}
+[15.101470] (-) TimerEvent: {}
+[15.201737] (-) TimerEvent: {}
+[15.302004] (-) TimerEvent: {}
+[15.402331] (-) TimerEvent: {}
+[15.502738] (-) TimerEvent: {}
+[15.603044] (-) TimerEvent: {}
+[15.703358] (-) TimerEvent: {}
+[15.803864] (-) TimerEvent: {}
+[15.904521] (-) TimerEvent: {}
+[16.004863] (-) TimerEvent: {}
+[16.105296] (-) TimerEvent: {}
+[16.205626] (-) TimerEvent: {}
+[16.305972] (-) TimerEvent: {}
+[16.406378] (-) TimerEvent: {}
+[16.506943] (-) TimerEvent: {}
+[16.607470] (-) TimerEvent: {}
+[16.707780] (-) TimerEvent: {}
+[16.808098] (-) TimerEvent: {}
+[16.908426] (-) TimerEvent: {}
+[17.008754] (-) TimerEvent: {}
+[17.109088] (-) TimerEvent: {}
+[17.209396] (-) TimerEvent: {}
+[17.309732] (-) TimerEvent: {}
+[17.410029] (-) TimerEvent: {}
+[17.510352] (-) TimerEvent: {}
+[17.610665] (-) TimerEvent: {}
+[17.710996] (-) TimerEvent: {}
+[17.811293] (-) TimerEvent: {}
+[17.911630] (-) TimerEvent: {}
+[18.011998] (-) TimerEvent: {}
+[18.112321] (-) TimerEvent: {}
+[18.213281] (-) TimerEvent: {}
+[18.314198] (-) TimerEvent: {}
+[18.414603] (-) TimerEvent: {}
+[18.514925] (-) TimerEvent: {}
+[18.615262] (-) TimerEvent: {}
+[18.715660] (-) TimerEvent: {}
+[18.816076] (-) TimerEvent: {}
+[18.916455] (-) TimerEvent: {}
+[19.016788] (-) TimerEvent: {}
+[19.117132] (-) TimerEvent: {}
+[19.217476] (-) TimerEvent: {}
+[19.317856] (-) TimerEvent: {}
+[19.418229] (-) TimerEvent: {}
+[19.518602] (-) TimerEvent: {}
+[19.618968] (-) TimerEvent: {}
+[19.719339] (-) TimerEvent: {}
+[19.819755] (-) TimerEvent: {}
+[19.920106] (-) TimerEvent: {}
+[20.020538] (-) TimerEvent: {}
+[20.120965] (-) TimerEvent: {}
+[20.221427] (-) TimerEvent: {}
+[20.321827] (-) TimerEvent: {}
+[20.422273] (-) TimerEvent: {}
+[20.522733] (-) TimerEvent: {}
+[20.623162] (-) TimerEvent: {}
+[20.723544] (-) TimerEvent: {}
+[20.823916] (-) TimerEvent: {}
+[20.924323] (-) TimerEvent: {}
+[21.024881] (-) TimerEvent: {}
+[21.125335] (-) TimerEvent: {}
+[21.225737] (-) TimerEvent: {}
+[21.326104] (-) TimerEvent: {}
+[21.426470] (-) TimerEvent: {}
+[21.526836] (-) TimerEvent: {}
+[21.627267] (-) TimerEvent: {}
+[21.727726] (-) TimerEvent: {}
+[21.828080] (-) TimerEvent: {}
+[21.928459] (-) TimerEvent: {}
+[22.028824] (-) TimerEvent: {}
+[22.129185] (-) TimerEvent: {}
+[22.229565] (-) TimerEvent: {}
+[22.329996] (-) TimerEvent: {}
+[22.430429] (-) TimerEvent: {}
+[22.530787] (-) TimerEvent: {}
+[22.631135] (-) TimerEvent: {}
+[22.731480] (-) TimerEvent: {}
+[22.831900] (-) TimerEvent: {}
+[22.932374] (-) TimerEvent: {}
+[23.032731] (-) TimerEvent: {}
+[23.133146] (-) TimerEvent: {}
+[23.233537] (-) TimerEvent: {}
+[23.333946] (-) TimerEvent: {}
+[23.434327] (-) TimerEvent: {}
+[23.534824] (-) TimerEvent: {}
+[23.635342] (-) TimerEvent: {}
+[23.735698] (-) TimerEvent: {}
+[23.836059] (-) TimerEvent: {}
+[23.936424] (-) TimerEvent: {}
+[24.036773] (-) TimerEvent: {}
+[24.095292] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.095528] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[24.453548] (-) TimerEvent: {}
+[24.453753] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[24.453885] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.453976] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.454032] (QuadcopterController) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (!mNode)\n'}
+[24.454078] (QuadcopterController) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.454119] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[24.454159] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[24.454215] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[24.454260] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.454305] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[24.454345] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[24.454383] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.454421] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.454458] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[24.454507] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[24.454546] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.454592] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.454631] (QuadcopterController) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (!mNode)\n'}
+[24.454683] (QuadcopterController) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.454723] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[24.454784] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[24.454838] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[24.454878] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.454932] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[24.454981] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[24.455020] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.455057] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.455099] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.455136] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.455173] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.455209] (QuadcopterController) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (!mNode)\n'}
+[24.455244] (QuadcopterController) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.455294] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[24.455333] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.455369] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.455408] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[24.455463] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[24.455502] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.455538] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.455575] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[24.455624] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[24.455664] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.455710] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.455762] (QuadcopterController) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (!mNode)\n'}
+[24.455813] (QuadcopterController) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.455852] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:5\x1b[m\x1b[K,\n'}
+[24.455889] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[24.455926] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[24.455964] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.456022] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::client\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[24.456070] (QuadcopterController) StderrLine: {'line': b'   18 |         gazebo::\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K::setup();\n'}
+[24.456110] (QuadcopterController) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.456150] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.456195] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[24.456233] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.456271] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.456308] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[24.456349] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.456385] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.456451] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[24.456522] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.456589] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::transport::Publisher\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KInit\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.456655] (QuadcopterController) StderrLine: {'line': b'   19 |         mPub->\x1b[01;31m\x1b[KInit\x1b[m\x1b[K();\n'}
+[24.456716] (QuadcopterController) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.456783] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.456851] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = \x1b[01;31m\x1b[KmNode\x1b[m\x1b[K.Advertise<T>(inTopic);\n'}
+[24.456906] (QuadcopterController) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.456944] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.456987] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(inTopic);\n'}
+[24.457024] (QuadcopterController) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.457077] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.457144] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = \x1b[01;31m\x1b[KmNode\x1b[m\x1b[K.Advertise<T>(inTopic);\n'}
+[24.457228] (QuadcopterController) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.457310] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.457430] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = \x1b[01;31m\x1b[KmNode\x1b[m\x1b[K.Advertise<T>(inTopic);\n'}
+[24.457515] (QuadcopterController) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.457590] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.457671] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(inTopic);\n'}
+[24.457751] (QuadcopterController) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.457846] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.457926] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(inTopic);\n'}
+[24.458006] (QuadcopterController) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.458085] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.458173] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = \x1b[01;31m\x1b[KmNode\x1b[m\x1b[K.Advertise<T>(inTopic);\n'}
+[24.458237] (QuadcopterController) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.458303] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.458378] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(inTopic);\n'}
+[24.458458] (QuadcopterController) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.458536] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KinTopic\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.458620] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T>(\x1b[01;31m\x1b[KinTopic\x1b[m\x1b[K);\n'}
+[24.458696] (QuadcopterController) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.458777] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.458868] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::transport::PublisherPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass boost::shared_ptr<gazebo::transport::Publisher>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KPublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.458958] (QuadcopterController) StderrLine: {'line': b'   24 |         if(!mPub.\x1b[01;31m\x1b[KPublish\x1b[m\x1b[K(inMsg))\n'}
+[24.459040] (QuadcopterController) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.459122] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KinTopic\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.459198] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T>(\x1b[01;31m\x1b[KinTopic\x1b[m\x1b[K);\n'}
+[24.459260] (QuadcopterController) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.459320] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KinTopic\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.459390] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T>(\x1b[01;31m\x1b[KinTopic\x1b[m\x1b[K);\n'}
+[24.459483] (QuadcopterController) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.459561] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.459638] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::transport::PublisherPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass boost::shared_ptr<gazebo::transport::Publisher>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KPublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.459721] (QuadcopterController) StderrLine: {'line': b'   24 |         if(!mPub.\x1b[01;31m\x1b[KPublish\x1b[m\x1b[K(inMsg))\n'}
+[24.459788] (QuadcopterController) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.459864] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.459948] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::transport::PublisherPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass boost::shared_ptr<gazebo::transport::Publisher>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KPublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.460035] (QuadcopterController) StderrLine: {'line': b'   24 |         if(!mPub.\x1b[01;31m\x1b[KPublish\x1b[m\x1b[K(inMsg))\n'}
+[24.460113] (QuadcopterController) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.460184] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KinTopic\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.460249] (QuadcopterController) StderrLine: {'line': b'   20 |         mPub = mNode.Advertise<T>(\x1b[01;31m\x1b[KinTopic\x1b[m\x1b[K);\n'}
+[24.460319] (QuadcopterController) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.460390] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.460462] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::transport::PublisherPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass boost::shared_ptr<gazebo::transport::Publisher>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KPublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.460545] (QuadcopterController) StderrLine: {'line': b'   24 |         if(!mPub.\x1b[01;31m\x1b[KPublish\x1b[m\x1b[K(inMsg))\n'}
+[24.460608] (QuadcopterController) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.460667] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[24.460729] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[24.460786] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:\x1b[m\x1b[K At global scope:\n'}
+[24.460849] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.460906] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K>* controlPublisher;\n'}
+[24.460968] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.461042] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.461112] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.461170] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.461224] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.461277] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.461331] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.461382] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[24.461436] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[24.461498] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.461560] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.461620] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.461661] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PID.hpp:4\x1b[m\x1b[K,\n'}
+[24.461699] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PID.cpp:1\x1b[m\x1b[K:\n'}
+[24.461737] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.461776] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<gazebo::msgs::Cessna\x1b[01;31m\x1b[K>\x1b[m\x1b[K* controlPublisher;\n'}
+[24.461815] (QuadcopterController) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.461852] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.461890] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:\x1b[m\x1b[K At global scope:\n'}
+[24.461929] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.461975] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K>* controlPublisher;\n'}
+[24.462013] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.462049] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.462090] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.462127] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.462167] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.462204] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.462239] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.462277] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.462313] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.462349] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.462385] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.462422] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.462459] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.462494] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<gazebo::msgs::Cessna\x1b[01;31m\x1b[K>\x1b[m\x1b[K* controlPublisher;\n'}
+[24.462530] (QuadcopterController) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.462566] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcontroller::Base::Base(enums::CONTROL_METHOD_ENUM, gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.462601] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:7:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.462639] (QuadcopterController) StderrLine: {'line': b'    7 |     controlPublisher = new publishers::msgPublisher<ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K>(gzNode);\n'}
+[24.462674] (QuadcopterController) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.462714] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.462750] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.462790] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.462825] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.462859] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.462895] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.462930] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.462965] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.463002] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.463038] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.463073] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:7:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.463110] (QuadcopterController) StderrLine: {'line': b'    7 |     controlPublisher = new publishers::msgPublisher<gazebo::msgs::Cessna\x1b[01;31m\x1b[K>\x1b[m\x1b[K(gzNode);\n'}
+[24.463146] (QuadcopterController) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.463182] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[24.463217] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[24.463253] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:\x1b[m\x1b[K At global scope:\n'}
+[24.463288] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.463324] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K>* controlPublisher;\n'}
+[24.463359] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.463393] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.463427] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.463462] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.463496] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.463530] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.463570] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.463609] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[24.463648] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[24.463683] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.463718] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.463752] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.463787] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/LQR.hpp:4\x1b[m\x1b[K,\n'}
+[24.463821] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/LQR.cpp:1\x1b[m\x1b[K:\n'}
+[24.463855] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.463889] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<gazebo::msgs::Cessna\x1b[01;31m\x1b[K>\x1b[m\x1b[K* controlPublisher;\n'}
+[24.463923] (QuadcopterController) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.463958] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[24.464017] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[24.464085] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:\x1b[m\x1b[K At global scope:\n'}
+[24.464150] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.464201] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K>* controlPublisher;\n'}
+[24.464241] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.464278] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.464314] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.464368] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.464407] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.464443] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.464478] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.464513] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[24.464547] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[24.464587] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.464622] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.464657] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.464693] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4\x1b[m\x1b[K,\n'}
+[24.464728] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1\x1b[m\x1b[K:\n'}
+[24.464763] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:18:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[24.464799] (QuadcopterController) StderrLine: {'line': b'   18 |     publishers::msgPublisher<gazebo::msgs::Cessna\x1b[01;31m\x1b[K>\x1b[m\x1b[K* controlPublisher;\n'}
+[24.464835] (QuadcopterController) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.464871] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid controller::Base::commandVehicle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.464907] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:12:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCessna\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[24.464945] (QuadcopterController) StderrLine: {'line': b'   12 |     ignition::msgs::\x1b[01;31m\x1b[KCessna\x1b[m\x1b[K msg;\n'}
+[24.464982] (QuadcopterController) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.465017] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16\x1b[m\x1b[K,\n'}
+[24.465053] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[24.465088] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[24.465124] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[24.465159] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[24.465194] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/controller/base.hpp:4\x1b[m\x1b[K,\n'}
+[24.465234] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:1\x1b[m\x1b[K:\n'}
+[24.465270] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::Cessna\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[24.465310] (QuadcopterController) StderrLine: {'line': b'   80 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KCessna\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[24.465345] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.465386] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.465422] (QuadcopterController) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.set_cmd_propeller_speed(1000.0);\n'}
+[24.465457] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[24.465492] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/controller/base.cpp:21:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KpublishMessage\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K*((controller::Base*)this)->controller::Base::controlPublisher\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.465529] (QuadcopterController) StderrLine: {'line': b'   21 |     controlPublisher->\x1b[01;31m\x1b[KpublishMessage\x1b[m\x1b[K(msg);\n'}
+[24.465570] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.553712] (-) TimerEvent: {}
+[24.654119] (-) TimerEvent: {}
+[24.754499] (-) TimerEvent: {}
+[24.854890] (-) TimerEvent: {}
+[24.955284] (-) TimerEvent: {}
+[25.055673] (-) TimerEvent: {}
+[25.156090] (-) TimerEvent: {}
+[25.256630] (-) TimerEvent: {}
+[25.357020] (-) TimerEvent: {}
+[25.457453] (-) TimerEvent: {}
+[25.557806] (-) TimerEvent: {}
+[25.609660] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1\n'}
+[25.609865] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[25.630254] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1\n'}
+[25.638463] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1\n'}
+[25.652441] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1\n'}
+[25.652684] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2\n'}
+[25.652911] (QuadcopterController) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[25.655132] (QuadcopterController) CommandEnded: {'returncode': 2}
+[25.655383] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 2}
+[25.657874] (-) TimerEvent: {}
+[25.665843] (-) EventReactorShutdown: {}

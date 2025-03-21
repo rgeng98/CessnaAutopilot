@@ -1,0 +1,48 @@
+[0.056s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
+[1.067s] -- The C compiler identification is GNU 11.4.0
+[1.554s] -- The CXX compiler identification is GNU 11.4.0
+[1.663s] -- Detecting C compiler ABI info
+[2.014s] -- Detecting C compiler ABI info - done
+[2.018s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.019s] -- Detecting C compile features
+[2.032s] -- Detecting C compile features - done
+[2.035s] -- Detecting CXX compiler ABI info
+[2.151s] -- Detecting CXX compiler ABI info - done
+[2.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.157s] -- Detecting CXX compile features
+[2.157s] -- Detecting CXX compile features - done
+[2.452s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.477s] -- Searching for dependencies of ignition-msgs5
+[3.536s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.553s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.554s] -- Searching for dependencies of ignition-math6
+[3.585s] -- Checking for module 'tinyxml2'
+[3.602s] --   Found tinyxml2, version 9.0.0
+[3.646s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.646s] -- Searching for dependencies of ignition-transport8
+[4.631s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.634s] -- Checking for module 'libzmq >= 4'
+[4.708s] --   Found libzmq , version 4.3.4
+[4.728s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.747s] -- Checking for module 'uuid'
+[4.763s] --   Found uuid, version 2.37.2
+[4.783s] -- Found UUID: TRUE  
+[4.783s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.793s] -- Configuring done
+[4.799s] -- Generating done
+[4.817s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[4.834s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
+[4.836s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[4.866s] [ 22%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[4.866s] [ 22%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[4.867s] [ 33%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[4.867s] [ 44%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[6.568s] [ 55%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[6.642s] [ 55%] Built target CONTROLLER_LIB
+[6.655s] [ 66%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[6.655s] [ 77%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[11.665s] [ 88%] [32m[1mLinking CXX executable QuadcopterController[0m
+[11.923s] [100%] [32m[1mLinking CXX executable QuadcopterController_subscriber[0m
+[12.052s] [100%] Built target QuadcopterController
+[12.063s] [100%] Built target QuadcopterController_subscriber
+[12.127s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

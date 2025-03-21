@@ -1,0 +1,11 @@
+[0.111s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.722s] [ 13%] Built target OBJECTS
+[0.744s] [ 46%] Built target CONTROLLER_LIB
+[0.772s] [ 60%] Built target MOTOR_CONTROLLER_LIB
+[0.783s] [ 73%] Built target DATABASE_LIB
+[0.831s] [ 86%] Built target QuadcopterController
+[0.833s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[0.848s] [ 93%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[6.616s] [100%] [32m[1mLinking CXX executable QuadcopterController_subscriber[0m
+[7.086s] [100%] Built target QuadcopterController_subscriber
+[7.111s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

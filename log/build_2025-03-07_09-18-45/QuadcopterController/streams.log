@@ -1,0 +1,13 @@
+[0.076s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.599s] [ 71%] Built target CONTROLLER_LIB
+[0.614s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[0.624s] [ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[5.211s] [01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.211s] [01m[K/home/rgeng/Project/src/main.cpp:16:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::transport::v8::Node[m[K’ has no member named ‘[01m[KPublish[m[K’; did you mean ‘[01m[KPublisher[m[K’?
+[5.211s]    16 |     node.[01;31m[KPublish[m[K(topic, msg);
+[5.212s]       |          [01;31m[K^~~~~~~[m[K
+[5.212s]       |          [32m[KPublisher[m[K
+[6.048s] gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+[6.048s] gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+[6.048s] gmake: *** [Makefile:91: all] Error 2
+[6.085s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

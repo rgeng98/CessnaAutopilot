@@ -1,0 +1,24 @@
+[01m[K/home/rgeng/Project/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/main.cpp:6:112:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+    6 |   publishers::msgPublisher<ignition::msgs::StringMsg>* basicPublisher = new publishers::msgPublisher("/MyTopic"[01;31m[K)[m[K;
+      |                                                                                                                [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/main.cpp:6:112:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KmsgPublisher(const char [9])[m[K’
+In file included from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> msgPublisher(const string&)-> publishers::msgPublisher<T>[m[K’
+   12 |     [01;36m[KmsgPublisher[m[K(const std::string& inTopic)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:12:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:6:112:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+    6 |   publishers::msgPublisher<ignition::msgs::StringMsg>* basicPublisher = new publishers::msgPublisher("/MyTopic"[01;36m[K)[m[K;
+      |                                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/rgeng/Project/src/main.cpp:4[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> msgPublisher(publishers::msgPublisher<T>)-> publishers::msgPublisher<T>[m[K’
+    7 | class [01;36m[KmsgPublisher[m[K{
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:7:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgeng/Project/src/main.cpp:6:112:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kpublishers::msgPublisher<T>[m[K’ and ‘[01m[Kconst char*[m[K’
+    6 |   publishers::msgPublisher<ignition::msgs::StringMsg>* basicPublisher = new publishers::msgPublisher("/MyTopic"[01;36m[K)[m[K;
+      |                                                                                                                [01;36m[K^[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

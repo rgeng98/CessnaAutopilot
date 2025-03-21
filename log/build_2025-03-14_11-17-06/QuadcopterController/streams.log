@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[0.047s] [ 15%] Built target OBJECTS
+[0.070s] [ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[0.070s] [ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[0.070s] [ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[0.070s] [ 46%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[3.656s] In file included from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[3.656s] [01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+[3.657s]    16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna> controlPublisher("/gazebo/default/cessna_c172/control");
+[3.657s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.659s] In file included from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+[3.659s]                  from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[3.660s] [01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+[3.660s]    16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna> controlPublisher("/gazebo/default/cessna_c172/control");
+[3.660s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.661s] In file included from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+[3.661s]                  from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[3.661s] [01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+[3.661s]    16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna> controlPublisher("/gazebo/default/cessna_c172/control");
+[3.661s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.679s] In file included from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+[3.679s]                  from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[3.679s] [01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+[3.679s]    16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna> controlPublisher("/gazebo/default/cessna_c172/control");
+[3.679s]       |     [01;31m[K^~~~~~~~~~[m[K
+[4.863s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+[4.863s] gmake[2]: *** Waiting for unfinished jobs....
+[4.904s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1
+[4.904s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1
+[4.904s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1
+[4.905s] gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+[4.905s] gmake: *** [Makefile:91: all] Error 2
+[4.907s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

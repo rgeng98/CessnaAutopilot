@@ -1,0 +1,18 @@
+[ 38%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[ 53%] Built target MOTOR_CONTROLLER_LIB
+[ 61%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[ 69%] [32m[1mLinking CXX static library libDATABASE_LIB.a[0m
+[ 69%] Built target DATABASE_LIB
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[ 84%] [32m[1mLinking CXX executable QuadcopterController[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+[ 92%] Built target QuadcopterController
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgeng/Project/src/SubscriberTest.cpp:12:17:[m[K [01;31m[Kerror: [m[K‘[01m[KGlobalDatabase[m[K’ was not declared in this scope
+   12 |     auto data = [01;31m[KGlobalDatabase[m[K.getIMUData();
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

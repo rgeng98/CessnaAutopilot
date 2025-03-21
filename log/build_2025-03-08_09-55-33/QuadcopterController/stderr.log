@@ -1,0 +1,42 @@
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport.hh: No such file or directory
+    1 | #include [01;31m[K<ignition/transport.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PID.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport.hh: No such file or directory
+    1 | #include [01;31m[K<ignition/transport.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport.hh: No such file or directory
+    1 | #include [01;31m[K<ignition/transport.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:2[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:1:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport.hh: No such file or directory
+    1 | #include [01;31m[K<ignition/transport.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:209: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rgeng/Project/src/MotorDriver/MotorSpeedController.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/MotorDriver/MotorSpeedController.hpp:11:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   11 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/build.make:76: src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:261: src/MotorDriver/CMakeFiles/MOTOR_CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

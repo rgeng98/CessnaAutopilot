@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.376s] [31mCMake Error at src/CMakeLists.txt:3 (find_package):
+[0.376s]   By not providing "Findgz-msgs8.cmake" in CMAKE_MODULE_PATH this project has
+[0.376s]   asked CMake to find a package configuration file provided by "gz-msgs8",
+[0.376s]   but CMake did not find one.
+[0.376s] 
+[0.376s]   Could not find a package configuration file provided by "gz-msgs8" with any
+[0.376s]   of the following names:
+[0.376s] 
+[0.376s]     gz-msgs8Config.cmake
+[0.377s]     gz-msgs8-config.cmake
+[0.377s] 
+[0.377s]   Add the installation prefix of "gz-msgs8" to CMAKE_PREFIX_PATH or set
+[0.377s]   "gz-msgs8_DIR" to a directory containing one of the above files.  If
+[0.377s]   "gz-msgs8" provides a separate development package or SDK, be sure it has
+[0.377s]   been installed.
+[0.377s] 
+[0.377s] [0m
+[0.377s] -- Configuring incomplete, errors occurred!
+[0.377s] See also "/home/rgeng/Project/build/QuadcopterController/CMakeFiles/CMakeOutput.log".
+[0.377s] gmake: *** [Makefile:166: cmake_check_build_system] Error 1
+[0.379s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

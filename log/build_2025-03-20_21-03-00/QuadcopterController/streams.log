@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.041s] [ 15%] Built target OBJECTS
+[0.062s] [ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[0.063s] [ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[0.065s] [ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[0.066s] [ 46%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[7.493s] [ 53%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[7.608s] [ 53%] Built target CONTROLLER_LIB
+[7.620s] [ 69%] Built target MOTOR_CONTROLLER_LIB
+[7.632s] [ 76%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[13.332s] [ 84%] [32m[1mLinking CXX static library libDATABASE_LIB.a[0m
+[13.374s] [ 84%] Built target DATABASE_LIB
+[13.387s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[13.443s] [ 92%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[18.086s] In file included from [01m[K/home/rgeng/Project/include/database/database.hpp:5[m[K,
+[18.086s]                  from [01m[K/home/rgeng/Project/src/main.cpp:2[m[K:
+[18.086s] /home/rgeng/Project/include/subscribers/msgSubscriber.hpp: In instantiation of ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&) [with T = gazebo::msgs::IMU; std::string = std::__cxx11::basic_string<char>; gazebo::transport::NodePtr = boost::shared_ptr<gazebo::transport::Node>][m[K’:
+[18.086s] [01m[K/home/rgeng/Project/src/main.cpp:17:138:[m[K   required from here
+[18.086s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:17:79:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid subscriber::msgSubscriber<T>::callback(const T&) [with T = gazebo::msgs::IMU][m[K’
+[18.086s]    17 |         mNode = inGazeboNode->Subscribe("~/cessna_c172/state", [01;31m[KmsgSubscriber::callback[m[K);//, this);
+[18.086s]       |                                                                [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.086s] [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:24:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.086s]    24 |     void [01;36m[Kcallback[m[K(const T& msg)
+[18.086s]       |          [01;36m[K^~~~~~~~[m[K
+[18.790s] gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Error 1
+[18.790s] gmake[1]: *** [CMakeFiles/Makefile2:172: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+[18.791s] gmake: *** [Makefile:91: all] Error 2
+[18.793s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

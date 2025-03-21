@@ -1,0 +1,79 @@
+[0.008s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.024s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.027s] -- Searching for dependencies of ignition-math6
+[0.030s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.030s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.030s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.030s]   problems in calling code that expects `find_package` result variables
+[0.030s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.030s] Call Stack (most recent call first):
+[0.030s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.030s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.030s]   CMakeLists.txt:6 (find_package)
+[0.030s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.030s] [0m
+[0.045s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.065s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.065s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.066s] -- Looking for OGRE...
+[0.070s] -- Found Ogre Ghadamon (1.9.0)
+[0.070s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.076s] -- Looking for OGRE_Paging...
+[0.076s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.076s] -- Looking for OGRE_Terrain...
+[0.076s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.077s] -- Looking for OGRE_Property...
+[0.077s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.077s] -- Looking for OGRE_RTShaderSystem...
+[0.077s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.077s] -- Looking for OGRE_Volume...
+[0.077s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.077s] -- Looking for OGRE_Overlay...
+[0.077s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.486s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.486s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.486s] -- Searching for dependencies of ignition-transport8
+[6.989s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.469s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.472s] -- Checking for module 'libzmq >= 4'
+[7.479s] --   Found libzmq , version 4.3.4
+[7.502s] -- Checking for module 'uuid'
+[7.508s] --   Found uuid, version 2.37.2
+[7.525s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.526s] -- Searching for dependencies of ignition-msgs5
+[8.022s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.025s] -- Checking for module 'tinyxml2'
+[8.032s] --   Found tinyxml2, version 9.0.0
+[8.049s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.049s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.049s] -- Searching for dependencies of ignition-common3
+[8.050s] -- Looking for dlfcn.h - found
+[8.050s] -- Looking for libdl - found
+[8.081s] -- Searching for <ignition-common3> component [graphics]
+[8.081s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.081s] -- Searching for dependencies of ignition-common3-graphics
+[8.081s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.082s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.082s] -- Searching for dependencies of ignition-fuel_tools4
+[8.648s] -- Checking for module 'jsoncpp'
+[8.655s] --   Found jsoncpp, version 1.9.5
+[8.676s] -- Checking for module 'libzip'
+[8.682s] --   Found libzip, version 1.7.3
+[8.701s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.701s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.702s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.724s] -- Configuring done
+[8.757s] -- Generating done
+[8.762s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[8.781s] [35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[8.786s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[8.788s] [ 15%] Built target OBJECTS
+[8.840s] [ 53%] Built target CONTROLLER_LIB
+[8.846s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[8.848s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[8.853s] [ 69%] Built target MOTOR_CONTROLLER_LIB
+[8.878s] [ 84%] Built target DATABASE_LIB
+[8.885s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[8.917s] [ 92%] [32m[1mLinking CXX executable QuadcopterController[0m
+[9.552s] [100%] Built target QuadcopterController
+[9.560s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

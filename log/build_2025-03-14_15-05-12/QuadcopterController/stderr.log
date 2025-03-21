@@ -1,0 +1,8 @@
+[01m[K/home/rgeng/Project/src/controller/base.cpp:[m[K In member function ‘[01m[Kvoid controller::Base::commandVehicle()[m[K’:
+[01m[K/home/rgeng/Project/src/controller/base.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::msgs::Cessna[m[K’ has no member named ‘[01m[Kset_propeller_rpm[m[K’; did you mean ‘[01m[Kset_propeller_speed[m[K’?
+   14 |     msg.[01;31m[Kset_propeller_rpm[m[K(1000.0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kset_propeller_speed[m[K
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

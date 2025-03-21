@@ -1,0 +1,84 @@
+[0.008s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.023s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.026s] -- Searching for dependencies of ignition-math6
+[0.030s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.030s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.030s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.030s]   problems in calling code that expects `find_package` result variables
+[0.030s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.030s] Call Stack (most recent call first):
+[0.031s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.031s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.031s]   CMakeLists.txt:6 (find_package)
+[0.031s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.031s] [0m
+[0.051s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.077s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.078s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.079s] -- Looking for OGRE...
+[0.083s] -- Found Ogre Ghadamon (1.9.0)
+[0.083s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.091s] -- Looking for OGRE_Paging...
+[0.091s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.091s] -- Looking for OGRE_Terrain...
+[0.092s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.092s] -- Looking for OGRE_Property...
+[0.092s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.092s] -- Looking for OGRE_RTShaderSystem...
+[0.092s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.092s] -- Looking for OGRE_Volume...
+[0.092s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.092s] -- Looking for OGRE_Overlay...
+[0.092s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.489s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.490s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.490s] -- Searching for dependencies of ignition-transport8
+[6.997s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.480s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.483s] -- Checking for module 'libzmq >= 4'
+[7.491s] --   Found libzmq , version 4.3.4
+[7.512s] -- Checking for module 'uuid'
+[7.519s] --   Found uuid, version 2.37.2
+[7.535s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.536s] -- Searching for dependencies of ignition-msgs5
+[8.042s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.045s] -- Checking for module 'tinyxml2'
+[8.051s] --   Found tinyxml2, version 9.0.0
+[8.069s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.070s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.070s] -- Searching for dependencies of ignition-common3
+[8.070s] -- Looking for dlfcn.h - found
+[8.070s] -- Looking for libdl - found
+[8.103s] -- Searching for <ignition-common3> component [graphics]
+[8.103s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.103s] -- Searching for dependencies of ignition-common3-graphics
+[8.104s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.104s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.105s] -- Searching for dependencies of ignition-fuel_tools4
+[8.705s] -- Checking for module 'jsoncpp'
+[8.712s] --   Found jsoncpp, version 1.9.5
+[8.733s] -- Checking for module 'libzip'
+[8.739s] --   Found libzip, version 1.7.3
+[8.757s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.757s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.757s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.761s] -- Configuring done
+[8.794s] -- Generating done
+[8.798s] -- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[8.816s] [35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[8.822s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[8.823s] [ 15%] Built target OBJECTS
+[8.878s] [ 53%] Built target CONTROLLER_LIB
+[8.885s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[8.886s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[8.892s] [ 69%] Built target MOTOR_CONTROLLER_LIB
+[8.916s] [ 84%] Built target DATABASE_LIB
+[8.924s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
+[8.956s] [ 92%] [32m[1mLinking CXX executable QuadcopterController[0m
+[9.109s] /usr/bin/ld: CMakeFiles/QuadcopterController.dir/main.cpp.o: undefined reference to symbol '_ZN3tbb6detail2r114notify_waitersEm'
+[9.110s] /usr/bin/ld: /lib/x86_64-linux-gnu/libtbb.so.12: error adding symbols: DSO missing from command line
+[9.113s] collect2: error: ld returned 1 exit status
+[9.114s] gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:171: src/QuadcopterController] Error 1
+[9.114s] gmake[1]: *** [CMakeFiles/Makefile2:172: src/CMakeFiles/QuadcopterController.dir/all] Error 2
+[9.114s] gmake: *** [Makefile:91: all] Error 2
+[9.116s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

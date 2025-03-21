@@ -1,0 +1,13 @@
+[ 55%] Built target CONTROLLER_LIB
+[35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
+[ 77%] Built target QuadcopterController
+[ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m
+In file included from [01m[K/home/rgeng/Project/src/SubscriberTest.cpp:4[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In member function ‘[01m[KT subscriber::msgSubscriber<T>::getMessageData()[m[K’:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcallBackData[m[K’ was not declared in this scope; did you mean ‘[01m[KcallbackData[m[K’?
+   29 |         return [01;31m[KcallBackData[m[K;
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+      |                [32m[KcallbackData[m[K
+gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:76: src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

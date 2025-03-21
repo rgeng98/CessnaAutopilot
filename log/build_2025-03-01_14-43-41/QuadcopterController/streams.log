@@ -1,0 +1,5 @@
+[0.006s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[0.038s] [ 71%] Built target CONTROLLER_LIB
+[0.050s] [100%] Built target QuadcopterController
+[0.056s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

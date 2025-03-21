@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (QuadcopterController) JobQueued: {'identifier': 'QuadcopterController', 'dependencies': OrderedDict()}
+[0.000701] (QuadcopterController) JobStarted: {'identifier': 'QuadcopterController'}
+[0.005796] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'cmake'}
+[0.006345] (QuadcopterController) JobProgress: {'identifier': 'QuadcopterController', 'progress': 'build'}
+[0.006996] (QuadcopterController) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgeng/Project/build/QuadcopterController', '--', '-j12', '-l12'], 'cwd': '/home/rgeng/Project/build/QuadcopterController', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgeng'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rgeng'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgeng'), ('NAME', 'BobsComputer'), ('WSL_INTEROP', '/run/WSL/698_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgeng/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gengb/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gengb/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgeng/Project/build/QuadcopterController'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.043608] (QuadcopterController) StdoutLine: {'line': b'[ 15%] Built target OBJECTS\n'}
+[0.050554] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB\x1b[0m\n'}
+[0.099979] (-) TimerEvent: {}
+[0.106752] (QuadcopterController) StdoutLine: {'line': b'[ 53%] Built target CONTROLLER_LIB\n'}
+[0.113241] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB\x1b[0m\n'}
+[0.114487] (QuadcopterController) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DATABASE_LIB\x1b[0m\n'}
+[0.119855] (QuadcopterController) StdoutLine: {'line': b'[ 69%] Built target MOTOR_CONTROLLER_LIB\n'}
+[0.146191] (QuadcopterController) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o\x1b[0m\n'}
+[0.200221] (-) TimerEvent: {}
+[0.300679] (-) TimerEvent: {}
+[0.402390] (-) TimerEvent: {}
+[0.504093] (-) TimerEvent: {}
+[0.605791] (-) TimerEvent: {}
+[0.707517] (-) TimerEvent: {}
+[0.809228] (-) TimerEvent: {}
+[0.910922] (-) TimerEvent: {}
+[1.012621] (-) TimerEvent: {}
+[1.114216] (-) TimerEvent: {}
+[1.215810] (-) TimerEvent: {}
+[1.317282] (-) TimerEvent: {}
+[1.418748] (-) TimerEvent: {}
+[1.520219] (-) TimerEvent: {}
+[1.621688] (-) TimerEvent: {}
+[1.723163] (-) TimerEvent: {}
+[1.824633] (-) TimerEvent: {}
+[1.926102] (-) TimerEvent: {}
+[2.027576] (-) TimerEvent: {}
+[2.129048] (-) TimerEvent: {}
+[2.230206] (-) TimerEvent: {}
+[2.330729] (-) TimerEvent: {}
+[2.431964] (-) TimerEvent: {}
+[2.532691] (-) TimerEvent: {}
+[2.633987] (-) TimerEvent: {}
+[2.735238] (-) TimerEvent: {}
+[2.836501] (-) TimerEvent: {}
+[2.937763] (-) TimerEvent: {}
+[3.039014] (-) TimerEvent: {}
+[3.140264] (-) TimerEvent: {}
+[3.241379] (-) TimerEvent: {}
+[3.342384] (-) TimerEvent: {}
+[3.443457] (-) TimerEvent: {}
+[3.544527] (-) TimerEvent: {}
+[3.645567] (-) TimerEvent: {}
+[3.746620] (-) TimerEvent: {}
+[3.847686] (-) TimerEvent: {}
+[3.948748] (-) TimerEvent: {}
+[4.049807] (-) TimerEvent: {}
+[4.150876] (-) TimerEvent: {}
+[4.151691] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:1\x1b[m\x1b[K:\n'}
+[4.152021] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:14:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIMU\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kignition::msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.152087] (QuadcopterController) StderrLine: {'line': b'   14 |    subscriber::msgSubscriber<ignition::msgs::\x1b[01;31m\x1b[KIMU\x1b[m\x1b[K>* imuSubscriber;\n'}
+[4.152132] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.152173] (QuadcopterController) StderrLine: {'line': b'\n'}
+[4.152211] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:14:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.152250] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:6\x1b[m\x1b[K,\n'}
+[4.152288] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:1\x1b[m\x1b[K:\n'}
+[4.152324] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/enums/enumerations.hpp:14:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kenums::MSG_TOPICS::IMU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.152362] (QuadcopterController) StderrLine: {'line': b'   14 |     \x1b[01;36m\x1b[KIMU\x1b[m\x1b[K\n'}
+[4.152398] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.152434] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:45\x1b[m\x1b[K,\n'}
+[4.152480] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35\x1b[m\x1b[K,\n'}
+[4.152516] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20\x1b[m\x1b[K,\n'}
+[4.152551] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[4.152587] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3\x1b[m\x1b[K,\n'}
+[4.152623] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:5\x1b[m\x1b[K,\n'}
+[4.152661] (QuadcopterController) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:1\x1b[m\x1b[K:\n'}
+[4.152696] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:83:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgazebo::msgs::IMU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.152733] (QuadcopterController) StderrLine: {'line': b'   83 | class GZ_MSGS_VISIBLE \x1b[01;36m\x1b[KIMU\x1b[m\x1b[K PROTOBUF_FINAL :\n'}
+[4.152768] (QuadcopterController) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.152803] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:1\x1b[m\x1b[K:\n'}
+[4.152838] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:14:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.152874] (QuadcopterController) StderrLine: {'line': b'   14 | subscriber::msgSubscriber<ignition::msgs::IMU\x1b[01;31m\x1b[K>\x1b[m\x1b[K* imuSubscriber;\n'}
+[4.152908] (QuadcopterController) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.152943] (QuadcopterController) StderrLine: {'line': b'\n'}
+[4.152978] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:5:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdatabase::database::database()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.153029] (QuadcopterController) StderrLine: {'line': b'    5 |     \x1b[01;31m\x1b[Kdatabase\x1b[m\x1b[K::database(){\n'}
+[4.153066] (QuadcopterController) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.153102] (QuadcopterController) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rgeng/Project/src/database/database.cpp:1\x1b[m\x1b[K:\n'}
+[4.153137] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:11:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr database::database::database(database::database&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.153173] (QuadcopterController) StderrLine: {'line': b'   11 |     class \x1b[01;36m\x1b[Kdatabase\x1b[m\x1b[K\n'}
+[4.153208] (QuadcopterController) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.153244] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:11:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kconstexpr database::database::database(const database::database&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.153283] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:18:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kdatabase::database::database(gazebo::transport::NodePtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.153327] (QuadcopterController) StderrLine: {'line': b'   18 |         \x1b[01;36m\x1b[Kdatabase\x1b[m\x1b[K(gazebo::transport::NodePtr& inGazeboNode);\n'}
+[4.153371] (QuadcopterController) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.153407] (QuadcopterController) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgeng/Project/include/database/database.hpp:11:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass database::database\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.153445] (QuadcopterController) StderrLine: {'line': b'   11 |     class \x1b[01;36m\x1b[Kdatabase\x1b[m\x1b[K\n'}
+[4.153480] (QuadcopterController) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.251538] (-) TimerEvent: {}
+[4.352470] (-) TimerEvent: {}
+[4.453320] (-) TimerEvent: {}
+[4.554217] (-) TimerEvent: {}
+[4.655116] (-) TimerEvent: {}
+[4.756031] (-) TimerEvent: {}
+[4.856997] (-) TimerEvent: {}
+[4.957786] (-) TimerEvent: {}
+[4.964855] (QuadcopterController) StderrLine: {'line': b'gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1\n'}
+[4.965124] (QuadcopterController) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:224: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2\n'}
+[4.965356] (QuadcopterController) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[4.967550] (QuadcopterController) CommandEnded: {'returncode': 2}
+[4.967841] (QuadcopterController) JobEnded: {'identifier': 'QuadcopterController', 'rc': 2}
+[4.978088] (-) EventReactorShutdown: {}

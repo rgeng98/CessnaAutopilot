@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[0.059s] [  7%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[3.653s] [ 15%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[3.842s] [ 38%] Built target CONTROLLER_LIB
+[3.849s] [35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
+[3.849s] [35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
+[3.861s] [ 46%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
+[3.893s] [ 61%] Built target MOTOR_CONTROLLER_LIB
+[5.611s] In file included from [01m[K/home/rgeng/Project/src/database/database.cpp:1[m[K:
+[5.611s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMSG_TOPICS[m[K’ is not a member of ‘[01m[Kenums[m[K’; did you mean ‘[01m[KMSG_Topics[m[K’?
+[5.611s]    13 |         std::map<enums::[01;31m[KMSG_TOPICS[m[K, subscribers::msgSubscriber*> subscribers;
+[5.611s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[5.611s]       |                         [32m[KMSG_Topics[m[K
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber[m[K’?
+[5.631s]    13 |         std::map<enums::MSG_TOPICS, [01;31m[Ksubscribers[m[K::msgSubscriber*> subscribers;
+[5.631s]       |                                     [01;31m[K^~~~~~~~~~~[m[K
+[5.631s]       |                                     [32m[Ksubscriber[m[K
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.631s]    13 |         std::map<enums::MSG_TOPICS, subscribers::msgSubscriber*[01;31m[K>[m[K subscribers;
+[5.631s]       |                                                                [01;31m[K^[m[K
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[5.631s] [01m[K/home/rgeng/Project/include/database/database.hpp:22:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.631s]    22 |     }
+[5.632s]       |      [01;31m[K^[m[K
+[5.632s]       |      [32m[K;[m[K
+[5.632s] [01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In constructor ‘[01m[Kdatabase::database::database()[m[K’:
+[5.632s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinsert_or_assign[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.632s]     7 |         subscribers.[01;31m[Kinsert_or_assign[m[K(std::pair(enums::MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+[5.632s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.632s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMSGS[m[K’ is not a member of ‘[01m[Kenums[m[K’
+[5.632s]     7 |         subscribers.insert_or_assign(std::pair(enums::[01;31m[KMSGS[m[K::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*("/MyTopic")));
+[5.632s]       |                                                       [01;31m[K^~~~[m[K
+[5.632s] [01m[K/home/rgeng/Project/src/database/database.cpp:7:118:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Ksubscriber::msgSubscriber<ignition::msgs::IMU>*[m[K’ in initialization
+[5.632s]     7 |         subscribers.insert_or_assign(std::pair(enums::MSGS::IMU, new subscriber::msgSubscriber<ignition::msgs::IMU>*([01;31m[K"/MyTopic"[m[K)));
+[5.633s]       |                                                                                                                      [01;31m[K^~~~~~~~~~[m[K
+[5.633s]       |                                                                                                                      [01;31m[K|[m[K
+[5.633s]       |                                                                                                                      [01;31m[Kconst char*[m[K
+[5.633s] [01m[K/home/rgeng/Project/src/database/database.cpp:[m[K In member function ‘[01m[Kobjects::imu database::database::getIMUData()[m[K’:
+[5.633s] [01m[K/home/rgeng/Project/src/database/database.cpp:11:50:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[K((database::database*)this)->database::database::subscribers[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.633s]    11 |         ignition::msgs::IMU imuMsg = subscribers.[01;31m[Kat[m[K(enums::MSGS::IMU)->getMessageData();
+[5.633s]       |                                                  [01;31m[K^~[m[K
+[5.633s] [01m[K/home/rgeng/Project/src/database/database.cpp:11:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kenums::MSGS[m[K’ has not been declared
+[5.633s]    11 |         ignition::msgs::IMU imuMsg = subscribers.at(enums::[01;31m[KMSGS[m[K::IMU)->getMessageData();
+[5.633s]       |                                                            [01;31m[K^~~~[m[K
+[6.139s] gmake[2]: *** [src/database/CMakeFiles/DATABASE_LIB.dir/build.make:76: src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o] Error 1
+[6.139s] gmake[1]: *** [CMakeFiles/Makefile2:235: src/database/CMakeFiles/DATABASE_LIB.dir/all] Error 2
+[6.140s] gmake: *** [Makefile:91: all] Error 2
+[6.142s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

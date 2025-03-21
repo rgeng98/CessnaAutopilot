@@ -1,0 +1,327 @@
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for ignition-msgs5 -- found version 5.8.1
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Configuring done
+[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
+[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins".  Targets may link only to libraries.  CMake is dropping the item.[0m
+[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
+[0mWARNING: Target "QuadcopterController" requests linking to directory "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins".  Targets may link only to libraries.  CMake is dropping the item.[0m
+-- Generating done
+-- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[  7%] [32mBuilding CXX object src/objects/CMakeFiles/OBJECTS.dir/imu.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[ 46%] [32m[1mLinking CXX static library libOBJECTS.a[0m
+[ 46%] Built target OBJECTS
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In constructor ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   18 |         [01;31m[Kif[m[K (!mNode)
+      |         [01;31m[K^~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+   18 |         gazebo::[01;31m[Kclient[m[K::setup();
+      |                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In constructor ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   18 |         [01;31m[Kif[m[K (!mNode)
+      |         [01;31m[K^~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+   18 |         gazebo::[01;31m[Kclient[m[K::setup();
+      |                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In constructor ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   18 |         [01;31m[Kif[m[K (!mNode)
+      |         [01;31m[K^~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+   18 |         gazebo::[01;31m[Kclient[m[K::setup();
+      |                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:[m[K In constructor ‘[01m[Ksubscriber::msgSubscriber<T>::msgSubscriber(const string&, gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:18:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   18 |         [01;31m[Kif[m[K (!mNode)
+      |         [01;31m[K^~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+   18 |         gazebo::[01;31m[Kclient[m[K::setup();
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+   19 |         mPub->[01;31m[KInit[m[K();
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+   19 |         mPub->[01;31m[KInit[m[K();
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+   19 |         mPub->[01;31m[KInit[m[K();
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+   19 |         mPub->[01;31m[KInit[m[K();
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+   20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+   20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+   20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+   20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+   20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+   24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+   20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+   20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+   24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+   24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+   20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+   24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+      |                  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:[m[K At global scope:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+   18 |     publishers::msgPublisher<ignition::msgs::[01;31m[KCessna[m[K>* controlPublisher;
+      |                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     publishers::msgPublisher<gazebo::msgs::Cessna[01;31m[K>[m[K* controlPublisher;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:[m[K At global scope:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+   18 |     publishers::msgPublisher<ignition::msgs::[01;31m[KCessna[m[K>* controlPublisher;
+      |                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     publishers::msgPublisher<gazebo::msgs::Cessna[01;31m[K>[m[K* controlPublisher;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/controller/base.cpp:[m[K In constructor ‘[01m[Kcontroller::Base::Base(enums::CONTROL_METHOD_ENUM, gazebo::transport::NodePtr&)[m[K’:
+[01m[K/home/rgeng/Project/src/controller/base.cpp:7:69:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+    7 |     controlPublisher = new publishers::msgPublisher<ignition::msgs::[01;31m[KCessna[m[K>(gzNode);
+      |                                                                     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+[01m[K/home/rgeng/Project/src/controller/base.cpp:7:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |     controlPublisher = new publishers::msgPublisher<gazebo::msgs::Cessna[01;31m[K>[m[K(gzNode);
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:[m[K At global scope:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+   18 |     publishers::msgPublisher<ignition::msgs::[01;31m[KCessna[m[K>* controlPublisher;
+      |                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     publishers::msgPublisher<gazebo::msgs::Cessna[01;31m[K>[m[K* controlPublisher;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:[m[K At global scope:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+   18 |     publishers::msgPublisher<ignition::msgs::[01;31m[KCessna[m[K>* controlPublisher;
+      |                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:18:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     publishers::msgPublisher<gazebo::msgs::Cessna[01;31m[K>[m[K* controlPublisher;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/rgeng/Project/src/controller/base.cpp:[m[K In member function ‘[01m[Kvoid controller::Base::commandVehicle()[m[K’:
+[01m[K/home/rgeng/Project/src/controller/base.cpp:12:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCessna[m[K’ is not a member of ‘[01m[Kignition::msgs[m[K’; did you mean ‘[01m[Kgazebo::msgs::Cessna[m[K’?
+   12 |     ignition::msgs::[01;31m[KCessna[m[K msg;
+      |                     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:16[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/rgeng/Project/include/subscribers/msgSubscriber.hpp:3[m[K,
+                 from [01m[K/home/rgeng/Project/include/controller/base.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/cessna.pb.h:80:23:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::Cessna[m[K’ declared here
+   80 | class GZ_MSGS_VISIBLE [01;36m[KCessna[m[K PROTOBUF_FINAL :
+      |                       [01;36m[K^~~~~~[m[K
+[01m[K/home/rgeng/Project/src/controller/base.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   13 |     [01;31m[Kmsg[m[K.set_cmd_propeller_speed(1000.0);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/rgeng/Project/src/controller/base.cpp:21:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KpublishMessage[m[K’ in ‘[01m[K*((controller::Base*)this)->controller::Base::controlPublisher[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   21 |     controlPublisher->[01;31m[KpublishMessage[m[K(msg);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

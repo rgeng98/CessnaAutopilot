@@ -1,0 +1,107 @@
+[0.009s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[0.053s] [ 15%] Built target OBJECTS
+[0.109s] [ 23%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[0.111s] [ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[0.111s] [ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[0.113s] [ 46%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[6.810s] In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+[6.810s]                  from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[6.810s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[6.811s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+[6.811s]    18 |         gazebo::[01;31m[Kclient[m[K::setup();
+[6.811s]       |                 [01;31m[K^~~~~~[m[K
+[6.811s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+[6.811s]    19 |         mPub->[01;31m[KInit[m[K();
+[6.811s]       |               [01;31m[K^~~~[m[K
+[6.829s] In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+[6.829s]                  from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+[6.829s]                  from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[6.829s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[6.829s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+[6.829s]    18 |         gazebo::[01;31m[Kclient[m[K::setup();
+[6.829s]       |                 [01;31m[K^~~~~~[m[K
+[6.829s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+[6.830s]    19 |         mPub->[01;31m[KInit[m[K();
+[6.830s]       |               [01;31m[K^~~~[m[K
+[6.830s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+[6.830s]    20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+[6.830s]       |                [01;31m[K^~~~~[m[K
+[6.830s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.830s]    20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+[6.830s]       |                                 [01;31m[K^[m[K
+[6.841s] In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+[6.841s]                  from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+[6.841s]                  from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[6.841s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[6.841s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+[6.841s]    18 |         gazebo::[01;31m[Kclient[m[K::setup();
+[6.841s]       |                 [01;31m[K^~~~~~[m[K
+[6.841s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+[6.841s]    19 |         mPub->[01;31m[KInit[m[K();
+[6.841s]       |               [01;31m[K^~~~[m[K
+[6.848s] In file included from [01m[K/home/rgeng/Project/include/controller/base.hpp:5[m[K,
+[6.848s]                  from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+[6.848s]                  from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[6.848s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In constructor ‘[01m[Kpublishers::msgPublisher<T>::msgPublisher(gazebo::transport::NodePtr&)[m[K’:
+[6.848s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::client[m[K’ has not been declared
+[6.848s]    18 |         gazebo::[01;31m[Kclient[m[K::setup();
+[6.848s]       |                 [01;31m[K^~~~~~[m[K
+[6.848s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::transport::Publisher[m[K’ has no member named ‘[01m[KInit[m[K’
+[6.848s]    19 |         mPub->[01;31m[KInit[m[K();
+[6.848s]       |               [01;31m[K^~~~[m[K
+[6.849s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+[6.849s]    20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+[6.849s]       |                [01;31m[K^~~~~[m[K
+[6.850s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.850s]    20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+[6.850s]       |                                 [01;31m[K^[m[K
+[6.850s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+[6.850s]    20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+[6.850s]       |                                   [01;31m[K^~~~~~~[m[K
+[6.850s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[6.850s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+[6.851s]    24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+[6.851s]       |                  [01;31m[K^~~~~~~[m[K
+[6.861s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+[6.862s]    20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+[6.862s]       |                [01;31m[K^~~~~[m[K
+[6.862s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.862s]    20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+[6.862s]       |                                 [01;31m[K^[m[K
+[6.869s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KmNode[m[K’ was not declared in this scope
+[6.869s]    20 |         mPub = [01;31m[KmNode[m[K.Advertise<T>(inTopic);
+[6.869s]       |                [01;31m[K^~~~~[m[K
+[6.869s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.869s]    20 |         mPub = mNode.Advertise<T[01;31m[K>[m[K(inTopic);
+[6.870s]       |                                 [01;31m[K^[m[K
+[6.870s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+[6.870s]    20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+[6.870s]       |                                   [01;31m[K^~~~~~~[m[K
+[6.870s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[6.871s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+[6.871s]    24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+[6.871s]       |                  [01;31m[K^~~~~~~[m[K
+[6.878s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+[6.878s]    20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+[6.878s]       |                                   [01;31m[K^~~~~~~[m[K
+[6.879s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[6.879s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+[6.879s]    24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+[6.879s]       |                  [01;31m[K^~~~~~~[m[K
+[6.887s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KinTopic[m[K’ was not declared in this scope
+[6.887s]    20 |         mPub = mNode.Advertise<T>([01;31m[KinTopic[m[K);
+[6.887s]       |                                   [01;31m[K^~~~~~~[m[K
+[6.887s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:[m[K In member function ‘[01m[Kvoid publishers::msgPublisher<T>::publishMessage(const T&)[m[K’:
+[6.887s] [01m[K/home/rgeng/Project/include/publishers/msgPublisher.hpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::transport::PublisherPtr[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<gazebo::transport::Publisher>[m[K’} has no member named ‘[01m[KPublish[m[K’
+[6.887s]    24 |         if(!mPub.[01;31m[KPublish[m[K(inMsg))
+[6.887s]       |                  [01;31m[K^~~~~~~[m[K
+[8.481s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+[8.481s] gmake[2]: *** Waiting for unfinished jobs....
+[8.562s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1
+[8.584s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1
+[8.597s] gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1
+[8.597s] gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+[8.598s] gmake: *** [Makefile:91: all] Error 2
+[8.601s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

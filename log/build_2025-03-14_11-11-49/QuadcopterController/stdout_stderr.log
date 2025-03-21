@@ -1,0 +1,50 @@
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rgeng/Project/build/QuadcopterController
+[35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
+[ 15%] Built target OBJECTS
+[35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
+[ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+In file included from [01m[K/home/rgeng/Project/include/controller/PID.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PID.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+   16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna::control> controlPublisher("/gazebo/default/cessna_c172/control");
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/LQR.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/LQR.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+   16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna::control> controlPublisher("/gazebo/default/cessna_c172/control");
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/include/controller/PolePlacement.hpp:4[m[K,
+                 from [01m[K/home/rgeng/Project/src/controller/PolePlacement.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+   16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna::control> controlPublisher("/gazebo/default/cessna_c172/control");
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rgeng/Project/src/controller/base.cpp:1[m[K:
+[01m[K/home/rgeng/Project/include/controller/base.hpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishers[m[K’ does not name a type
+   16 |     [01;31m[Kpublishers[m[K::msgPublisher<gazebo::msgs::Cessna::control> controlPublisher("/gazebo/default/cessna_c172/control");
+      |     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:76: src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:118: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:104: src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o] Error 1
+gmake[2]: *** [src/controller/CMakeFiles/CONTROLLER_LIB.dir/build.make:90: src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:198: src/controller/CMakeFiles/CONTROLLER_LIB.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

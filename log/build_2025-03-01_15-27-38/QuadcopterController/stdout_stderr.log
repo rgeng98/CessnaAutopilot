@@ -1,0 +1,8 @@
+[ 28%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
+[ 71%] Built target CONTROLLER_LIB
+[ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable QuadcopterController[0m
+[100%] Built target QuadcopterController
