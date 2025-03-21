@@ -1,6 +1,0 @@
-[ 55%] Built target CONTROLLER_LIB
-[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
-[ 77%] Built target QuadcopterController_subscriber
-[ 88%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
-[100%] [32m[1mLinking CXX executable QuadcopterController[0m
-[100%] Built target QuadcopterController

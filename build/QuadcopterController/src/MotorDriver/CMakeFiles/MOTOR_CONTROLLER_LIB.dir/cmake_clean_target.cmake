@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libMOTOR_CONTROLLER_LIB.a"
-)

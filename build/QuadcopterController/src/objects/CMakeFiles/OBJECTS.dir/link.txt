@@ -1,2 +1,0 @@
-/usr/bin/ar qc libOBJECTS.a CMakeFiles/OBJECTS.dir/imu.cpp.o
-/usr/bin/ranlib libOBJECTS.a

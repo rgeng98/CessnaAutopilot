@@ -1,7 +1,0 @@
-[0.018s] Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
-[0.098s] [ 71%] Built target CONTROLLER_LIB
-[0.109s] [35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
-[0.126s] [ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
-[4.336s] [100%] [32m[1mLinking CXX executable QuadcopterController[0m
-[5.047s] [100%] Built target QuadcopterController
-[5.055s] Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12

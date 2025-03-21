@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMOTOR_CONTROLLER_LIB.a CMakeFiles/MOTOR_CONTROLLER_LIB.dir/MotorSpeedController.cpp.o
-/usr/bin/ranlib libMOTOR_CONTROLLER_LIB.a

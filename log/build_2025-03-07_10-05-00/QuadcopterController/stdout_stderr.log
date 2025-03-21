@@ -1,6 +1,0 @@
-[ 71%] Built target CONTROLLER_LIB
-[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
-[ 85%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController.dir/main.cpp.o[0m
-gmake[2]: *** [src/CMakeFiles/QuadcopterController.dir/build.make:76: src/CMakeFiles/QuadcopterController.dir/main.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:115: src/CMakeFiles/QuadcopterController.dir/all] Interrupt
-gmake: *** [Makefile:91: all] Interrupt

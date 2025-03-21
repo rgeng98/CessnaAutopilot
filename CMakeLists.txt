@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(QuadcopterController)
+project(CessnaController)
 set(CMAKE_CXX_COMPILER "/usr/bin/g++-11")
 
 find_package(ignition-math6 REQUIRED)
