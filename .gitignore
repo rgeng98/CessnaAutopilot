@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Directories generated from colcon build
+/build
+/logs
+/install

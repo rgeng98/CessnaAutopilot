@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target OBJECTS[0m
-[ 13%] Built target OBJECTS
-[ 46%] Built target CONTROLLER_LIB
-[ 60%] Built target MOTOR_CONTROLLER_LIB
-[ 73%] Built target DATABASE_LIB
-[35m[1mConsolidate compiler generated dependencies of target QuadcopterController[0m
-[35m[1mConsolidate compiler generated dependencies of target QuadcopterController_subscriber[0m
-[ 86%] Built target QuadcopterController
-[ 93%] [32mBuilding CXX object src/CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o[0m

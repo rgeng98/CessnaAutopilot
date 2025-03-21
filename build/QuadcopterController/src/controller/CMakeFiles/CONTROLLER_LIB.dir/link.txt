@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCONTROLLER_LIB.a CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o CMakeFiles/CONTROLLER_LIB.dir/LQR.cpp.o CMakeFiles/CONTROLLER_LIB.dir/PID.cpp.o CMakeFiles/CONTROLLER_LIB.dir/PolePlacement.cpp.o
-/usr/bin/ranlib libCONTROLLER_LIB.a

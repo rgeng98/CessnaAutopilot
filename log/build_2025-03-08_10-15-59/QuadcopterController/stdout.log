@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target CONTROLLER_LIB[0m
-[  7%] [32mBuilding CXX object src/controller/CMakeFiles/CONTROLLER_LIB.dir/base.cpp.o[0m
-[ 15%] [32m[1mLinking CXX static library libCONTROLLER_LIB.a[0m
-[ 38%] Built target CONTROLLER_LIB
-[35m[1mConsolidate compiler generated dependencies of target MOTOR_CONTROLLER_LIB[0m
-[35m[1mConsolidate compiler generated dependencies of target DATABASE_LIB[0m
-[ 46%] [32mBuilding CXX object src/database/CMakeFiles/DATABASE_LIB.dir/database.cpp.o[0m
-[ 61%] Built target MOTOR_CONTROLLER_LIB

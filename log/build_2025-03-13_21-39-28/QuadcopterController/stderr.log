@@ -1,8 +1,0 @@
-/usr/bin/ld: database/libDATABASE_LIB.a(database.cpp.o): in function `objects::quaternions_to_euler(objects::Quaternion)':
-database.cpp:(.text+0x0): multiple definition of `objects::quaternions_to_euler(objects::Quaternion)'; CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o:SubscriberTest.cpp:(.text+0x0): first defined here
-/usr/bin/ld: database/libDATABASE_LIB.a(database.cpp.o): in function `objects::euler_to_quaternions(objects::EulerAngles const&)':
-database.cpp:(.text+0x236): multiple definition of `objects::euler_to_quaternions(objects::EulerAngles const&)'; CMakeFiles/QuadcopterController_subscriber.dir/SubscriberTest.cpp.o:SubscriberTest.cpp:(.text+0x236): first defined here
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [src/CMakeFiles/QuadcopterController_subscriber.dir/build.make:107: src/QuadcopterController_subscriber] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:183: src/CMakeFiles/QuadcopterController_subscriber.dir/all] Error 2
-gmake: *** [Makefile:91: all] Error 2

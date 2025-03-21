@@ -1,4 +1,0 @@
-Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
-Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '0': /usr/bin/cmake /home/rgeng/Project -DCMAKE_INSTALL_PREFIX=/home/rgeng/Project/install/QuadcopterController
-Invoking command in '/home/rgeng/Project/build/QuadcopterController': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
-Invoked command in '/home/rgeng/Project/build/QuadcopterController' returned '2': /usr/bin/cmake --build /home/rgeng/Project/build/QuadcopterController -- -j12 -l12
