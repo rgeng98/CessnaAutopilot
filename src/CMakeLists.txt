@@ -15,7 +15,6 @@ target_link_libraries(
     DATABASE_LIB 
     MOTOR_CONTROLLER_LIB
     ${GAZEBO_LIBRARIES}
-    ${ignition-math6_LIBRARIES}
     gazebo_transport
     gazebo_msgs
     )

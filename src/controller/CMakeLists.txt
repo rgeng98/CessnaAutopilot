@@ -9,4 +9,4 @@ add_library(CONTROLLER_LIB
 
 include_directories(CONTROLLER_LIB ${CMAKE_SOURCE_DIR}/include)
 link_directories(${GAZEBO_LIBRARY_DIRS})
-target_link_libraries(CONTROLLER_LIB Eigen3::Eigen ${GAZEBO_LIBRARIES} ${ignition-math6_LIBRARIES} gazebo_transport gazebo_msgs TBB::tbb)
+target_link_libraries(CONTROLLER_LIB Eigen3::Eigen ${GAZEBO_LIBRARIES} gazebo_transport gazebo_msgs TBB::tbb)
