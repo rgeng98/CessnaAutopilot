@@ -33,5 +33,5 @@
 
 # Directories generated from colcon build
 /build
-/logs
+/log
 /install
