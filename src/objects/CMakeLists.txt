@@ -5,4 +5,4 @@ add_library(OBJECTS
 include_directories(OBJECTS ${CMAKE_SOURCE_DIR}/include)
 
 link_directories(${GAZEBO_LIBRARY_DIRS})
-target_link_libraries(OBJECTS ${GAZEBO_LIBRARIES} ${ignition-math6_LIBRARIES} gazebo_transport gazebo_msgs TBB::tbb)
+target_link_libraries(OBJECTS ${GAZEBO_LIBRARIES} gazebo_transport gazebo_msgs TBB::tbb)
