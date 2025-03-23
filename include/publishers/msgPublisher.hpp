@@ -14,10 +14,7 @@ class msgPublisher{
     public:
     msgPublisher(gazebo::transport::NodePtr& inGazeboNode)
     {
-        mPub = inGazeboNode->Advertise<gazebo::msgs::Cessna>("~/cessna_c172/control");
-        // gazebo::client::setup();
-        // mPub->Init();
-        // mPub = mNode.Advertise<T>(inTopic);
+        mPub = inGazeboNode->Advertise<gazebo::msgs::Cessna>("/gazebo/default/cessna_c172/control");
     };
     void publishMessage(const T& inMsg)
     {
